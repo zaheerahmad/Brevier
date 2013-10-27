@@ -8,6 +8,7 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Display;
 import android.view.Menu;
@@ -117,10 +118,12 @@ public class QuizActivity extends Activity
 	{
 		btn.setChecked(false);
 		btn.setTextColor(Color.BLACK);
+		btn.setTypeface(null, Typeface.NORMAL);
 	}
 	public void checkRadioButton(RadioButton btn)
 	{
 		btn.setTextColor(Color.BLUE);
+		btn.setTypeface(null, Typeface.BOLD);
 	}
 
 	@Override
