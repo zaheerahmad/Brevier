@@ -1,7 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-    
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    android:background="@drawable/bg_quiz">
+    	
+	    <RelativeLayout 
+	        android:id="@+id/learnQuoteActivityLayout_rLayoutNavigationButtons"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	        <ImageButton 
+	            android:src="@drawable/previous"
+	            android:layout_alignParentLeft="true"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/learnQuoteActivityLayout_previousButton"/>
+	        <ImageButton 
+	            android:src="@drawable/next"
+	            android:layout_alignParentRight="true"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/learnQuoteActivityLayout_nextButton"/>
+	    </RelativeLayout>
+	    <RelativeLayout 
+	        android:layout_below="@+id/learnQuoteActivityLayout_rLayoutNavigationButtons"
+	        android:id="@+id/learnQuoteActivityLayout_rLayoutSubtitle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dp">
+	        <TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="Subtitle Here"
+	            android:textStyle="bold"
+	            android:textColor="#ffcc00"/>
+	    </RelativeLayout>
+	    
+	    <RelativeLayout 
+	        android:layout_below="@+id/learnQuoteActivityLayout_rLayoutSubtitle"
+	        android:id="@+id/learnQuoteActivityLayout_rLayoutDescriptions"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dp">
 
-</RelativeLayout>
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:background="@drawable/bg_selected_choice"
+	            android:gravity="center_vertical"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/learnQuoteActivityLayout_lLayoutRadioButton1"
+	            android:orientation="vertical">
+	            <RadioButton 
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="Ein Anfang ..."
+	                android:checked="false"
+	                android:id="@+id/learnQuoteActivityLayout_radioButton1"
+	                android:textColor="#ffffff"
+	                android:onClick="FetchResult"/>
+			</LinearLayout>
+			<EditText 
+			    android:layout_below="@+id/learnQuoteActivityLayout_lLayoutRadioButton1"
+			    android:layout_width="match_parent"
+			    android:layout_height="250dp"
+			    android:gravity="top|left"
+			    android:textSize="12sp"
+			    android:editable="false"
+			    android:background="#d6d6d6"
+			    android:id="@+id/learnQuoteActivityLayout_firstDescriptionText"/>
+			<LinearLayout 
+			    android:layout_below="@+id/learnQuoteActivityLayout_firstDescriptionText"
+			    android:id="@+id/learnQuoteActivityLayout_lLayoutRadioButton2"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/bg_selected_choice"
+			    android:gravity="center_vertical"
+			    android:orientation="vertical">
+			    <RadioButton 
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:text="... und mehr"
+			        android:checked="false"
+			        android:id="@+id/learnQuoteActivityLayout_radioButton2"
+			        android:textColor="#ffffff"
+			        android:onClick="FetchResult"/>
+			</LinearLayout>
+			<EditText 
+			    android:layout_below="@+id/learnQuoteActivityLayout_lLayoutRadioButton2"
+			    android:layout_width="match_parent"
+			    android:layout_height="250dp"
+			    android:gravity="top|left"
+			    android:textSize="12sp"
+			    android:editable="false"
+			    android:background="#d6d6d6"
+			    android:id="@+id/learnQuoteActivityLayout_secondDescriptionText"/>
+	    </RelativeLayout>
+	</RelativeLayout>    
+</ScrollView>
+
+
