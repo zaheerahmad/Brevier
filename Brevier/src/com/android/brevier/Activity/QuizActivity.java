@@ -3,6 +3,11 @@
  */
 package com.android.brevier.Activity;
 
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuItem;
+import com.actionbarsherlock.view.MenuItem.OnMenuItemClickListener;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -11,7 +16,6 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Display;
-import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -24,7 +28,7 @@ import android.widget.Toast;
  * @author Zaheer Ahmad
  *
  */
-public class QuizActivity extends Activity 
+public class QuizActivity extends SherlockFragmentActivity 
 {
 	RadioButton option1 = null;//(RadioButton)findViewById(R.quizActivity.option1);
 	RadioButton option2 = null;//(RadioButton)findViewById(R.quizActivity.option2);
@@ -125,11 +129,29 @@ public class QuizActivity extends Activity
 		btn.setTextColor(Color.BLUE);
 		btn.setTypeface(null, Typeface.BOLD);
 	}
-
+	
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.brevier_main, menu);
-		return true;
-	}
+    public boolean onCreateOptionsMenu(Menu menu) 
+    {
+    	 // First Menu Button
+    	menu.add("Menu")
+        .setOnMenuItemClickListener(this.MenuButtonHandler)
+/*//                .setIcon(R.drawable.white_home) // Set the menu icon
+*/                .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+        
+        
+        return super.onCreateOptionsMenu(menu);
+    }
+	
+	OnMenuItemClickListener MenuButtonHandler = new OnMenuItemClickListener() {
+
+		public boolean onMenuItemClick(MenuItem item) {
+
+			// Create a simple toast message
+			Toast.makeText(getApplicationContext(), "Going back to Menu", Toast.LENGTH_SHORT).show();
+			finish();
+			// Do something else
+			return false;
+		}
+	};
 }
