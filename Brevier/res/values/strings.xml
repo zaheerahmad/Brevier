@@ -8,16 +8,20 @@
     <!-- Activity Labels -->
     
     <string name="app_name">Brevier</string>
-    <string name="select_category_activity">Select Category</string>
-    <string name="quiz_activity">Quiz</string>
+    <string name="select_category_activity">Menu</string>
+    <string name="quiz_activity">Kann ich jetzt Goethisch?</string>
     
     <!-- Button Text Strings -->
     
-    <string name="start_quiz_button_text">Sprech ich am Ende Goethisch?</string>
-    <string name="category_learn_quote_button1_text">1. Der junge Goethe</string>
-    <string name="category_learn_quote_button2_text">2. In der reifen Zeit</string>
-    <string name="category_learn_quote_button3_text">3. Im weisen Alter</string>
+    <string name="start_quiz_button_text">Kann ich jetzt Goethisch?</string>
+    <string name="category_learn_quote_button1_text">1. Junger Goethe</string>
+    <string name="category_learn_quote_button2_text">2. Reifer Goethe</string>
+    <string name="category_learn_quote_button3_text">3. Weiser Goethe</string>
     
     <string name="quiz_activity_button_stop_text">Stop</string>
-
+    
+    
+    <string name="learnQuoteTitle1">Junger Goethe</string>
+    <string name="learQuoteTitle2">Reifer Goethe</string>
+    <string name="learQuoteTitle3">Weiser Goethe</string>
 </resources>

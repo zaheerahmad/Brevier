@@ -31,8 +31,22 @@
         <activity
             android:name="com.android.brevier.Activity.QuizActivity"
             android:label="@string/quiz_activity" 
-            android:screenOrientation="portrait">
-            
+            android:screenOrientation="portrait">            
+        </activity>
+        <activity
+            android:name="com.android.brevier.Activity.LearnQuoteActivity1"
+            android:label="@string/learnQuoteTitle1" 
+            android:screenOrientation="portrait">            
+        </activity>
+        <activity
+            android:name="com.android.brevier.Activity.LearnQuoteActivity2"
+            android:label="@string/learQuoteTitle2" 
+            android:screenOrientation="portrait">            
+        </activity>
+        <activity
+            android:name="com.android.brevier.Activity.LearnQuoteActivity3"
+            android:label="@string/learQuoteTitle3" 
+            android:screenOrientation="portrait">            
         </activity>
     </application>
 

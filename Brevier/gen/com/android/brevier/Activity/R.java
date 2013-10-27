@@ -928,8 +928,10 @@ containing a value of this type.
         public static final int icon_72=0x7f02007f;
         public static final int icon_76=0x7f020080;
         public static final int multiple_choice_layout=0x7f020081;
-        public static final int option_checkmark=0x7f020082;
-        public static final int stop_btn_2=0x7f020083;
+        public static final int next=0x7f020082;
+        public static final int option_checkmark=0x7f020083;
+        public static final int previous=0x7f020084;
+        public static final int stop_btn_2=0x7f020085;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f040020;
@@ -1028,10 +1030,11 @@ containing a value of this type.
         public static final int abs__search_view=0x7f030013;
         public static final int abs__simple_dropdown_hint=0x7f030014;
         public static final int brevier_activity_main_layout=0x7f030015;
-        public static final int quiz_activity_layout=0x7f030016;
-        public static final int selectcategoryactivity_layout=0x7f030017;
-        public static final int sherlock_spinner_dropdown_item=0x7f030018;
-        public static final int sherlock_spinner_item=0x7f030019;
+        public static final int learn_quote_activity_layout=0x7f030016;
+        public static final int quiz_activity_layout=0x7f030017;
+        public static final int selectcategoryactivity_layout=0x7f030018;
+        public static final int sherlock_spinner_dropdown_item=0x7f030019;
+        public static final int sherlock_spinner_item=0x7f03001a;
     }
     public static final class mainActivityLayout {
         public static final int StartButton=0x7f0c0000;
@@ -1090,6 +1093,9 @@ containing a value of this type.
         public static final int category_learn_quote_button2_text=0x7f090014;
         public static final int category_learn_quote_button3_text=0x7f090015;
         public static final int hello_world=0x7f09000e;
+        public static final int learQuoteTitle2=0x7f090018;
+        public static final int learQuoteTitle3=0x7f090019;
+        public static final int learnQuoteTitle1=0x7f090017;
         public static final int quiz_activity=0x7f090011;
         public static final int quiz_activity_button_stop_text=0x7f090016;
         public static final int select_category_activity=0x7f090010;

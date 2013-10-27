@@ -33,6 +33,42 @@ public class SelectCategoryActivity extends Activity {
 			}
 		});
 		
+		Button learnQuoteBtn1 = (Button)findViewById(R.id.selectCategoryActivityLayout_btnCategoryLearn1);
+		learnQuoteBtn1.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(SelectCategoryActivity.this, LearnQuoteActivity1.class);
+				startActivity(intent);
+				
+			}
+		});
+		
+		Button learnQuoteBtn2 = (Button)findViewById(R.id.selectCategoryActivityLayout_btnCategoryLearn2);
+		learnQuoteBtn2.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(SelectCategoryActivity.this, LearnQuoteActivity2.class);
+				startActivity(intent);
+				
+			}
+		});
+		
+		Button learnQuoteBtn3 = (Button)findViewById(R.id.selectCategoryActivityLayout_btnCategoryLearn3);
+		learnQuoteBtn3.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(SelectCategoryActivity.this, LearnQuoteActivity3.class);
+				startActivity(intent);
+				
+			}
+		});
+		
 	}
 
 	@Override
