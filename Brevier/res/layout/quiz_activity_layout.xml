@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Q1"
         android:textColor="#ffffff"
+        android:textSize="20sp"
         android:id="@+id/quizActivity_questionNoText"/>
     
     <TextView 
@@ -22,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#ffffff"
+        android:textSize="20sp"
         android:text="Time: 00:08"
         android:id="@+id/quizActivity_timeText"/>
     
@@ -33,6 +35,7 @@
         android:textColor="#ffffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:layout_marginTop="5dp"/>
     
     <TextView 
@@ -43,6 +46,7 @@
         android:textColor="#ffcc00"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:layout_marginTop="5dp"/>
     
     <LinearLayout 
@@ -67,6 +71,7 @@
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content"
 	            android:id="@+id/quizActivity_option1"
+	            android:textSize="20sp"
 	            android:onClick="ToggleRadioButton"/>
         </LinearLayout>
         <LinearLayout 
@@ -74,6 +79,7 @@
             android:layout_height="wrap_content"
             android:focusableInTouchMode="true"
             android:layout_marginTop="5dp"
+            
             android:id="@+id/quizActivity_lLayoutOption2"
             android:background="@drawable/multiple_choice_layout"
             >
@@ -82,6 +88,7 @@
 	            android:text="lieben"
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content"
+	            android:textSize="20sp"
 	            android:id="@+id/quizActivity_option2"
 	            android:onClick="ToggleRadioButton"/>
         </LinearLayout>
@@ -98,6 +105,7 @@
 	            android:text="unterhaltenden"
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content"
+	            android:textSize="20sp"
 	            android:id="@+id/quizActivity_option3"
 	            android:onClick="ToggleRadioButton"/>
         </LinearLayout>
@@ -114,6 +122,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="17dp"
+        android:textSize="20sp"
         android:text="Kannst du dich einfuhlen?"
         android:layout_centerHorizontal="true"
         android:textColor="#ffffff"/>
@@ -123,6 +132,7 @@
         android:text="@string/quiz_activity_button_stop_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:textColor="#ffffff"
         android:id="@+id/quizActivity_stopButton"/>    
 </RelativeLayout>
