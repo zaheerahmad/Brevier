@@ -3,12 +3,17 @@
  */
 package com.android.brevier.Activity;
 
+import java.util.List;
+import java.util.Random;
+
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.SystemClock;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -20,6 +25,8 @@ import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.view.MenuItem.OnMenuItemClickListener;
+import com.android.brevier.Service.QuizData;
+import com.android.brevier.Service.TextParser;
 
 /**
  * @author Zaheer Ahmad
@@ -31,8 +38,22 @@ public class QuizActivity extends SherlockFragmentActivity
 	RadioButton option2 = null;//(RadioButton)findViewById(R.quizActivity.option2);
 	RadioButton option3 = null;//(RadioButton)findViewById(R.quizActivity.option3);
 	TextView timeText = null;
+	TextView questionText = null;
+	TextView questionNumberText = null;
+	List<String> fileText = null;
+	QuizData quizData = null;
+	Random random = new Random();
 	ProgressDialog progressDialog = null;
 	ImageView optionResultImage = null;
+	int questionNumber = 1;
+	boolean isFirstGame = true;
+	
+	private long startTime = 0L;
+	long timeInMilliseconds = 0L;
+	long timeSwapBuff = 0L;
+	long updatedTime = 0L;
+
+	private Handler customHandler = new Handler();
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -42,8 +63,30 @@ public class QuizActivity extends SherlockFragmentActivity
 		option2 = (RadioButton)findViewById(R.id.quizActivity_option2);
 		option3 = (RadioButton)findViewById(R.id.quizActivity_option3);
 		timeText = (TextView)findViewById(R.id.quizActivity_timeText);
+		questionText = (TextView)findViewById(R.id.quizActivity_questionTextInWhite);
 		optionResultImage = (ImageView)findViewById(R.id.quizActivity_optionResultImage);
+		questionNumberText = (TextView)findViewById(R.id.quizActivity_questionNoText);
 		Button stopBtn = (Button)findViewById(R.id.quizActivity_stopButton);
+		
+		final Runnable updateTimerThread = new Runnable() {
+
+			public void run() {
+
+				timeInMilliseconds = SystemClock.uptimeMillis() - startTime;
+				updatedTime = timeSwapBuff + timeInMilliseconds;
+				int secs = (int) (updatedTime / 1000);
+				int mins = secs / 60;
+				secs = secs % 60;
+				int milliseconds = (int) (updatedTime % 1000);
+				timeText.setText("Time" + String.format("%02d", mins) + ":"
+						+ String.format("%02d", secs));
+				customHandler.postDelayed(this, 0);
+
+			}
+
+		};
+		startTime = SystemClock.uptimeMillis();
+        customHandler.postDelayed(updateTimerThread, 0);   
 		stopBtn.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -51,7 +94,8 @@ public class QuizActivity extends SherlockFragmentActivity
 			{
 				// TODO Auto-generated method stub	
 				String time = timeText.getText().toString();
-				String []timeArr = time.split("\\:");
+				time.replace("Time", "");
+				String []timeArr = time.split(":");
 				String hours = "0";
 				String minutes = "00";
 				String seconds = "00";
@@ -61,8 +105,8 @@ public class QuizActivity extends SherlockFragmentActivity
 				}
 				else
 				{
-					minutes = timeArr[1].trim();
-					seconds = timeArr[2].trim();
+					minutes = timeArr[0].trim();
+					seconds = timeArr[1].trim();
 				}
 				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
 				// set dialog message
@@ -82,37 +126,101 @@ public class QuizActivity extends SherlockFragmentActivity
 				AlertDialog alertDialog = alertDialogBuilder.create();
 				// show it
 				alertDialog.show();
+				customHandler.removeCallbacks(updateTimerThread);
 			}
 		});
+		
+	  
+		
+		loadFileText();
+		setNextQuizQuestion();		
+	}
+	
+	public void loadFileText() {
+		progressDialog.setMessage("Checking...");
+		progressDialog.show();		
+		progressDialog.setCancelable(true);
+		fileText = TextParser.readFile(getAssets());
+		progressDialog.dismiss();
+	}
+	
+	public void setNextQuizQuestion() {
+
+		TextParser textParser = new TextParser();
+		quizData = textParser.splitData(fileText.get((random.nextInt(fileText
+				.size() - 1) - 0) + 0));
+		questionNumberText.setText("Q." + Integer.toString(questionNumber++));	
+		questionText.setText(quizData.name);
+		option1.setText(quizData.option1);
+		option2.setText(quizData.option2);
+		option3.setText(quizData.option3);		
+
+	}
+
+	public void checkUserAnswer(String selectedOption,String correctAnswer){
+		
 	}
 	
 	public void ToggleRadioButton(View view) 
 	{
 		progressDialog.setMessage("Checking...");
 		progressDialog.show();
-		//progressDialog.setCancelable(false);
-		switch (view.getId()) 
-		{
+		boolean isNextQuestion = false;
+		RadioButton radioButton = null;
+		optionResultImage.setImageResource(-1);
+		String selectedOption = "";
+		progressDialog.setCancelable(false);
+		switch (view.getId()) {
 			case R.id.quizActivity_option1:
 				checkRadioButton(option1);
 				uncheckRadioButton(option2);
 				uncheckRadioButton(option3);
+			radioButton = (RadioButton) findViewById(view.getId());
+			selectedOption = radioButton.getText().toString();
+			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
+				setNextQuizQuestion();
+				isNextQuestion = true;
+			}
 			break;
 			case R.id.quizActivity_option2:
 				checkRadioButton(option2);
 				uncheckRadioButton(option1);
 				uncheckRadioButton(option3);
-				optionResultImage.setImageResource(-1);
+			radioButton = (RadioButton) findViewById(view.getId());
+			selectedOption = radioButton.getText().toString();
+			if (selectedOption.equals(quizData.correctOption)) {
+				optionResultImage.setImageResource(R.drawable.option_checkmark);
+				setNextQuizQuestion();
+				isNextQuestion = true;
+			}
 			break;
 			case R.id.quizActivity_option3:
 				checkRadioButton(option3);
 				uncheckRadioButton(option2);
 				uncheckRadioButton(option1);
-				optionResultImage.setImageResource(-1);
+			radioButton = (RadioButton) findViewById(view.getId());
+			selectedOption = radioButton.getText().toString();
+			if (selectedOption.equals(quizData.correctOption)) {
+				optionResultImage.setImageResource(R.drawable.option_checkmark);
+				setNextQuizQuestion();
+				isNextQuestion = true;
+			}
 			break;
 		}
+
+		if(isNextQuestion){
+			clearOption();
+		}
+		
 		progressDialog.dismiss();
+		isFirstGame = false;
+	}
+	
+	public void clearOption() {
+		uncheckRadioButton(option1);
+		uncheckRadioButton(option2);
+		uncheckRadioButton(option3);
 	}
 	
 	public void uncheckRadioButton(RadioButton btn)
