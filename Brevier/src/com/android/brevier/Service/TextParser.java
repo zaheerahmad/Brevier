@@ -26,7 +26,9 @@ public class TextParser {
 			BufferedReader br = new BufferedReader(isr);
 			String stringLine = "";
 			while ((stringLine = br.readLine()) != null) {
-				returnString.add(stringLine);
+				if(stringLine != null){
+					returnString.add(stringLine);
+				}
 			}
 		} catch (Exception ex) {
 
@@ -34,7 +36,7 @@ public class TextParser {
 		return returnString;
 	}
 	
-	public QuizData splitData(String randString) {
+	public static QuizData splitData(String randString) {
 		QuizData returnData = null;
 		String[] spliString;
 		String[] option;
@@ -56,14 +58,21 @@ public class TextParser {
 		return returnData;
 	}
 	
-	public LearnData splitDataLearnQuote1(String str){
-		String []splitString;
-		try{
-			
+	public static LearnData splitDataLearnQuote1(String str) {
+		LearnData returnObj = null;
+		String[] splitString;
+		try {
+			if (str != null) {
+				splitString = str.split(";");
+				returnObj = new LearnData();
+				returnObj.id = Integer.parseInt(splitString[0]);
+				returnObj.subtitle = splitString[1];
+				returnObj.firstDisplayText = splitString[2].replace('|', '\n');
+				returnObj.secondDisplayText = splitString[3].replace('|', '\n');
+			}
+		} catch (Exception ex) {
+
 		}
-		catch(Exception ex){
-			
-		}
-		return new LearnData();
+		return returnObj;
 	}
 }
