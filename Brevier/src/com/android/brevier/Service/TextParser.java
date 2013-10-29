@@ -17,10 +17,10 @@ import android.content.res.AssetManager;
  */
 public class TextParser {
 
-	static public List<String> readFile(AssetManager am) {
+	static public List<String> readFile(AssetManager am,String fileName) {
 		List<String> returnString = null;
 		try {
-			InputStream is = am.open("4PraepAnschl.txt");
+			InputStream is = am.open(fileName);
 			returnString = new ArrayList<String>();
 			InputStreamReader isr = new InputStreamReader(is);
 			BufferedReader br = new BufferedReader(isr);
@@ -54,5 +54,16 @@ public class TextParser {
 
 		}
 		return returnData;
+	}
+	
+	public LearnData splitDataLearnQuote1(String str){
+		String []splitString;
+		try{
+			
+		}
+		catch(Exception ex){
+			
+		}
+		return new LearnData();
 	}
 }
