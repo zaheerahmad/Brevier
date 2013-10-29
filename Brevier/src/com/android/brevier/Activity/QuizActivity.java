@@ -78,7 +78,7 @@ public class QuizActivity extends SherlockFragmentActivity
 				int mins = secs / 60;
 				secs = secs % 60;
 				int milliseconds = (int) (updatedTime % 1000);
-				timeText.setText("Time" + String.format("%02d", mins) + ":"
+				timeText.setText("Time " + String.format("%02d", mins) + ":"
 						+ String.format("%02d", secs));
 				customHandler.postDelayed(this, 0);
 
@@ -136,16 +136,13 @@ public class QuizActivity extends SherlockFragmentActivity
 		setNextQuizQuestion();		
 	}
 	
-	public void loadFileText() {
-		progressDialog.setMessage("Checking...");
-		progressDialog.show();		
-		progressDialog.setCancelable(true);
-		fileText = TextParser.readFile(getAssets());
-		progressDialog.dismiss();
+	public void loadFileText() {	
+		fileText = TextParser.readFile(getAssets(),"4PraepAnschl.txt");		
 	}
 	
 	public void setNextQuizQuestion() {
 
+		
 		TextParser textParser = new TextParser();
 		quizData = textParser.splitData(fileText.get((random.nextInt(fileText
 				.size() - 1) - 0) + 0));
@@ -157,19 +154,22 @@ public class QuizActivity extends SherlockFragmentActivity
 
 	}
 
+	public void showDialogBox(){
+		progressDialog.setMessage("Checking...");
+		progressDialog.show();
+		progressDialog.setCancelable(false);
+	}
 	public void checkUserAnswer(String selectedOption,String correctAnswer){
 		
 	}
 	
 	public void ToggleRadioButton(View view) 
 	{
-		progressDialog.setMessage("Checking...");
-		progressDialog.show();
+		
 		boolean isNextQuestion = false;
-		RadioButton radioButton = null;
-		optionResultImage.setImageResource(-1);
+		RadioButton radioButton = null;		
 		String selectedOption = "";
-		progressDialog.setCancelable(false);
+		//progressDialog.setCancelable(false);
 		switch (view.getId()) {
 			case R.id.quizActivity_option1:
 				checkRadioButton(option1);
@@ -179,8 +179,19 @@ public class QuizActivity extends SherlockFragmentActivity
 			selectedOption = radioButton.getText().toString();
 			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
-				setNextQuizQuestion();
-				isNextQuestion = true;
+				showDialogBox();
+				final Handler handler = new Handler();
+				handler.postDelayed(new Runnable() {
+					
+					@Override
+					public void run() {
+						// TODO Auto-generated method stub
+						clearOption();
+						setNextQuizQuestion();
+					}
+				}, 1000);
+				
+					
 			}
 			break;
 			case R.id.quizActivity_option2:
@@ -191,8 +202,18 @@ public class QuizActivity extends SherlockFragmentActivity
 			selectedOption = radioButton.getText().toString();
 			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
-				setNextQuizQuestion();
-				isNextQuestion = true;
+				showDialogBox();
+				final Handler handler = new Handler();
+				handler.postDelayed(new Runnable() {
+					
+					@Override
+					public void run() {
+						// TODO Auto-generated method stub
+						clearOption();
+						setNextQuizQuestion();
+					}
+				}, 1000);
+				
 			}
 			break;
 			case R.id.quizActivity_option3:
@@ -203,24 +224,34 @@ public class QuizActivity extends SherlockFragmentActivity
 			selectedOption = radioButton.getText().toString();
 			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
-				setNextQuizQuestion();
-				isNextQuestion = true;
+				showDialogBox();
+				final Handler handler = new Handler();
+				handler.postDelayed(new Runnable() {
+					
+					@Override
+					public void run() {
+						// TODO Auto-generated method stub
+						clearOption();
+						setNextQuizQuestion();
+					}
+				}, 1000);
+				
 			}
 			break;
 		}
 
 		if(isNextQuestion){
 			clearOption();
-		}
-		
-		progressDialog.dismiss();
-		isFirstGame = false;
+		}		
+	
 	}
 	
 	public void clearOption() {
 		uncheckRadioButton(option1);
 		uncheckRadioButton(option2);
 		uncheckRadioButton(option3);
+		optionResultImage.setImageResource(-1);
+		progressDialog.dismiss();			
 	}
 	
 	public void uncheckRadioButton(RadioButton btn)
