@@ -140,11 +140,9 @@ public class QuizActivity extends SherlockFragmentActivity
 		fileText = TextParser.readFile(getAssets(),"4PraepAnschl.txt");		
 	}
 	
-	public void setNextQuizQuestion() {
-
+	public void setNextQuizQuestion() {		
 		
-		TextParser textParser = new TextParser();
-		quizData = textParser.splitData(fileText.get((random.nextInt(fileText
+		quizData = TextParser.splitData(fileText.get((random.nextInt(fileText
 				.size() - 1) - 0) + 0));
 		questionNumberText.setText("Q." + Integer.toString(questionNumber++));	
 		questionText.setText(quizData.name);
@@ -155,7 +153,7 @@ public class QuizActivity extends SherlockFragmentActivity
 	}
 
 	public void showDialogBox(){
-		progressDialog.setMessage("Checking...");
+		progressDialog.setMessage("Processing...");
 		progressDialog.show();
 		progressDialog.setCancelable(false);
 	}
