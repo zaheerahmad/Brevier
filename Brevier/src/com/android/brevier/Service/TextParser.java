@@ -8,6 +8,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import android.text.TextUtils;
 
 import android.content.res.AssetManager;
 
@@ -17,7 +18,7 @@ import android.content.res.AssetManager;
  */
 public class TextParser {
 
-	static public List<String> readFile(AssetManager am,String fileName) {
+	static public List<String> readFile(AssetManager am, String fileName) {
 		List<String> returnString = null;
 		try {
 			InputStream is = am.open(fileName);
@@ -26,7 +27,7 @@ public class TextParser {
 			BufferedReader br = new BufferedReader(isr);
 			String stringLine = "";
 			while ((stringLine = br.readLine()) != null) {
-				if(stringLine != null){
+				if (stringLine != null) {
 					returnString.add(stringLine);
 				}
 			}
@@ -35,7 +36,7 @@ public class TextParser {
 		}
 		return returnString;
 	}
-	
+
 	public static QuizData splitData(String randString) {
 		QuizData returnData = null;
 		String[] spliString;
@@ -67,12 +68,41 @@ public class TextParser {
 				returnObj = new LearnData();
 				returnObj.id = Integer.parseInt(splitString[0]);
 				returnObj.subtitle = splitString[1];
-				returnObj.firstDisplayText = splitString[2].replace('|', '\n');
-				returnObj.secondDisplayText = splitString[3].replace('|', '\n');
+				returnObj.firstDisplayText = removeSpecialCharacter(splitString[2]
+						.replace('|', '\n').split("\n"));
+				returnObj.secondDisplayText = removeSpecialCharacter(splitString[3]
+						.replace('|', '\n').split("\n"));				
 			}
 		} catch (Exception ex) {
 
 		}
 		return returnObj;
+	}
+	
+	public static String removeSpecialCharacter(String[] ls) {
+		int lsSize = ls.length;
+		StringBuilder returnString = new StringBuilder();
+		try {
+			if (ls != null) {
+				for (int i = 0; i < lsSize; i++) {
+					if (ls[i].startsWith("\"") && ls[i].endsWith("\"")) {
+						ls[i] = ls[i].substring(1, (ls[i].length() - 1));
+					} else if (ls[i].startsWith("\"")) {
+						ls[i] = ls[i].substring(1, ls[i].length());
+					} else if (ls[i].endsWith("\"")) {
+						ls[i] = ls[i].substring(0, (ls[i].length() - 1));
+					}
+				}
+			}
+
+		} catch (Exception ex) {
+
+		}
+
+		for (int g = 0; g < lsSize; g++) {
+			returnString.append(ls[g] + "\n");
+		}
+
+		return returnString.toString();
 	}
 }
