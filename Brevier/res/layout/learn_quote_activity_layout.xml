@@ -40,6 +40,7 @@
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content"
 	            android:text="Subtitle Here"
+	            android:textSize="20sp"
 	            android:textStyle="bold"
 	            android:id="@+id/learnQuoteActivityLayout_subtitleTextView"
 	            android:textColor="#ffcc00"/>
@@ -63,6 +64,7 @@
 	                android:layout_width="match_parent"
 	                android:layout_height="wrap_content"
 	                android:text="Ein Anfang ..."
+	                android:textSize="20sp"
 	                android:checked="false"
 	                android:id="@+id/learnQuoteActivityLayout_radioButton1"
 	                android:textColor="#ffffff"
@@ -73,7 +75,7 @@
 			    android:layout_width="match_parent"
 			    android:layout_height="250dp"
 			    android:gravity="top|left"
-			    android:textSize="12sp"
+			    android:textSize="16sp"
 			    android:editable="false"
 			    android:background="#d6d6d6"
 			    android:id="@+id/learnQuoteActivityLayout_firstDescriptionText"/>
@@ -92,6 +94,7 @@
 			        android:checked="false"
 			        android:id="@+id/learnQuoteActivityLayout_radioButton2"
 			        android:textColor="#ffffff"
+			        android:textSize="20sp"
 			        android:onClick="FetchResult"/>
 			</LinearLayout>
 			<EditText 
@@ -99,7 +102,7 @@
 			    android:layout_width="match_parent"
 			    android:layout_height="250dp"
 			    android:gravity="top|left"
-			    android:textSize="12sp"
+			    android:textSize="16sp"
 			    android:editable="false"
 			    android:background="#d6d6d6"
 			    android:id="@+id/learnQuoteActivityLayout_secondDescriptionText"/>

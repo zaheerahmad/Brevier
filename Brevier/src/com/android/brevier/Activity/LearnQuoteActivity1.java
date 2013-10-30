@@ -3,9 +3,10 @@
  */
 package com.android.brevier.Activity;
 
+import java.util.List;
+
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.RadioButton;
@@ -18,10 +19,6 @@ import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.view.MenuItem.OnMenuItemClickListener;
 import com.android.brevier.Service.LearnData;
 import com.android.brevier.Service.TextParser;
-
-import java.util.ArrayList;
-import java.util.Currency;
-import java.util.List;
 
 
 /**

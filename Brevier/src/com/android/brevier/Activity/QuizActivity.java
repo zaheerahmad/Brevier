@@ -153,7 +153,7 @@ public class QuizActivity extends SherlockFragmentActivity
 	}
 
 	public void showDialogBox(){
-		progressDialog.setMessage("Processing...");
+		progressDialog.setMessage("Uploading Next Question, Please Wait...");
 		progressDialog.show();
 		progressDialog.setCancelable(false);
 	}
