@@ -27,7 +27,7 @@ import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.view.MenuItem.OnMenuItemClickListener;
 import com.android.brevier.Service.QuizData;
 import com.android.brevier.Service.TextParser;
-
+import android.text.TextUtils;
 /**
  * @author Zaheer Ahmad
  *
@@ -47,6 +47,8 @@ public class QuizActivity extends SherlockFragmentActivity
 	ImageView optionResultImage = null;
 	int questionNumber = 1;
 	boolean isFirstGame = true;
+	
+	int countHours = 0;
 	
 	private long startTime = 0L;
 	long timeInMilliseconds = 0L;
@@ -78,10 +80,17 @@ public class QuizActivity extends SherlockFragmentActivity
 				int mins = secs / 60;
 				secs = secs % 60;
 				int milliseconds = (int) (updatedTime % 1000);
+				if(mins == 60){
+					++countHours;
+					timeText.setText("Time "
+							+ String.format("%02d", countHours) + ":"
+							+ String.format("%02d", mins) + ":"
+							+ String.format("%02d", secs));
+				}
 				timeText.setText("Time " + String.format("%02d", mins) + ":"
 						+ String.format("%02d", secs));
 				customHandler.postDelayed(this, 0);
-
+				
 			}
 
 		};
@@ -101,7 +110,9 @@ public class QuizActivity extends SherlockFragmentActivity
 				String seconds = "00";
 				if(timeArr.length > 3)
 				{
-					
+					hours = timeArr[0].trim();
+					minutes = timeArr[1].trim();
+					seconds = timeArr[2].trim();
 				}
 				else
 				{
@@ -128,10 +139,8 @@ public class QuizActivity extends SherlockFragmentActivity
 				alertDialog.show();
 				customHandler.removeCallbacks(updateTimerThread);
 			}
-		});
-		
+		});		
 	  
-		
 		loadFileText();
 		setNextQuizQuestion();		
 	}
@@ -140,16 +149,15 @@ public class QuizActivity extends SherlockFragmentActivity
 		fileText = TextParser.readFile(getAssets(),"4PraepAnschl.txt");		
 	}
 	
-	public void setNextQuizQuestion() {		
-		
-		quizData = TextParser.splitData(fileText.get((random.nextInt(fileText
-				.size() - 1) - 0) + 0));
-		questionNumberText.setText("Q." + Integer.toString(questionNumber++));	
+	public void setNextQuizQuestion() {
+		int randomIndex = random.nextInt(fileText.size() - 1) - 0 + 0;
+		quizData = TextParser.splitData(fileText.get(randomIndex));
+		fileText.remove(randomIndex);
+		questionNumberText.setText("Q." + Integer.toString(questionNumber++));
 		questionText.setText(quizData.name);
 		option1.setText(quizData.option1);
 		option2.setText(quizData.option2);
-		option3.setText(quizData.option3);		
-
+		option3.setText(quizData.option3);
 	}
 
 	public void showDialogBox(){
@@ -166,8 +174,7 @@ public class QuizActivity extends SherlockFragmentActivity
 		
 		boolean isNextQuestion = false;
 		RadioButton radioButton = null;		
-		String selectedOption = "";
-		//progressDialog.setCancelable(false);
+		String selectedOption = "";		
 		switch (view.getId()) {
 			case R.id.quizActivity_option1:
 				checkRadioButton(option1);

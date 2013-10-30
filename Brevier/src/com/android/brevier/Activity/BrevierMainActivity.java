@@ -16,7 +16,7 @@ public class BrevierMainActivity extends SherlockFragmentActivity {
 		/*ActionBar ab = getSupportActionBar();
 		ab.setDisplayHomeAsUpEnabled(true);*/
 		
-		Button btnStart = (Button)findViewById(R.mainActivityLayout.StartButton);
+		Button btnStart = (Button)findViewById(R.id.mainActivityLayout_StartButton);
 		
 		btnStart.setOnClickListener(new View.OnClickListener() {
 			

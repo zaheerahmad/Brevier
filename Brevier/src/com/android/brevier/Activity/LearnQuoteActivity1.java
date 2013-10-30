@@ -92,6 +92,7 @@ public class LearnQuoteActivity1 extends SherlockFragmentActivity
 	public void updateCurrentFileStringCounter(){
 		currentSizeFileString = learnCounter;
 	}
+	
 	public void checkVisibleButton(int count){
 		boolean isPrev = true;
 		boolean isNext = true;
@@ -145,6 +146,8 @@ public class LearnQuoteActivity1 extends SherlockFragmentActivity
 		secondDescription.setText("");
 		rdBtn1.setChecked(false);
 		rdBtn2.setChecked(false);
+		isRadioButton1Selected = false;
+		isRadioButton2Selected = false;
 	}
 	
 	public void FetchResult(View view)
