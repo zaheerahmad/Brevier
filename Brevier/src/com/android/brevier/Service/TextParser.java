@@ -27,7 +27,7 @@ public class TextParser {
 			BufferedReader br = new BufferedReader(isr);
 			String stringLine = "";
 			while ((stringLine = br.readLine()) != null) {
-				if (stringLine != null) {
+				if (!TextUtils.isEmpty(stringLine)) {
 					returnString.add(stringLine);
 				}
 			}
