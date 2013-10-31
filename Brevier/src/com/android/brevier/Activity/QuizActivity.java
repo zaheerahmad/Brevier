@@ -150,14 +150,39 @@ public class QuizActivity extends SherlockFragmentActivity
 	}
 	
 	public void setNextQuizQuestion() {
-		int randomIndex = random.nextInt(fileText.size() - 1) - 0 + 0;
-		quizData = TextParser.splitData(fileText.get(randomIndex));
-		fileText.remove(randomIndex);
-		questionNumberText.setText("Q." + Integer.toString(questionNumber++));
-		questionText.setText(quizData.name);
-		option1.setText(quizData.option1);
-		option2.setText(quizData.option2);
-		option3.setText(quizData.option3);
+		if(fileText.size() > 0)
+		{
+			int randomIndex = random.nextInt(fileText.size() - 1) - 0 + 0;
+			quizData = TextParser.splitData(fileText.get(randomIndex));
+			fileText.remove(randomIndex);
+			questionNumberText.setText("Q." + Integer.toString(questionNumber++));
+			questionText.setText(quizData.name);
+			option1.setText(quizData.option1);
+			option2.setText(quizData.option2);
+			option3.setText(quizData.option3);
+		}
+		else
+		{
+			//All Questions completed by User...
+			AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
+			// set dialog message
+			alertDialogBuilder
+					.setMessage("XXX")
+					.setCancelable(false)
+					.setPositiveButton("OK",
+							new DialogInterface.OnClickListener() {
+								public void onClick(DialogInterface dialog,
+										int id) {
+									// if this button is clicked, close
+									// current activity
+									finish();
+								}
+							});
+			// create alert dialog
+			AlertDialog alertDialog = alertDialogBuilder.create();
+			// show it
+			alertDialog.show();
+		}
 	}
 
 	public void showDialogBox(){

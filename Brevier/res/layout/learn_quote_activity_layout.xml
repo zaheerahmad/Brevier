@@ -75,7 +75,7 @@
 			    android:layout_width="match_parent"
 			    android:layout_height="250dp"
 			    android:gravity="top|left"
-			    android:textSize="16sp"
+			    android:textSize="18sp"
 			    android:editable="false"
 			    android:background="#d6d6d6"
 			    android:id="@+id/learnQuoteActivityLayout_firstDescriptionText"/>
@@ -102,7 +102,7 @@
 			    android:layout_width="match_parent"
 			    android:layout_height="250dp"
 			    android:gravity="top|left"
-			    android:textSize="16sp"
+			    android:textSize="18sp"
 			    android:editable="false"
 			    android:background="#d6d6d6"
 			    android:id="@+id/learnQuoteActivityLayout_secondDescriptionText"/>
