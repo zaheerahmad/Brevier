@@ -152,7 +152,13 @@ public class QuizActivity extends SherlockFragmentActivity
 	public void setNextQuizQuestion() {
 		if(fileText.size() > 0)
 		{
-			int randomIndex = random.nextInt(fileText.size() - 1) - 0 + 0;
+			int randomIndex = 0;
+			if(fileText.size() == 1){
+				randomIndex = 0;
+			}
+			else{
+				randomIndex = random.nextInt(fileText.size() - 1) - 0 + 0;
+			}
 			quizData = TextParser.splitData(fileText.get(randomIndex));
 			fileText.remove(randomIndex);
 			questionNumberText.setText("Q." + Integer.toString(questionNumber++));
