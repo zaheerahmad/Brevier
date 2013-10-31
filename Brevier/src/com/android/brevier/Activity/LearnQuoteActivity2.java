@@ -87,6 +87,8 @@ public class LearnQuoteActivity2 extends SherlockFragmentActivity
 	public void setFirstQuote(){		
 		learnData = TextParser.splitDataLearnQuote1(fileStrings.get(learnCounter));
 		subTitle.setText(learnData.subtitle);		
+		rdBtn1.setChecked(true);
+		firstDescription.setText(learnData.firstDisplayText);
 	}
 	
 	public void updateCurrentFileStringCounter(){
@@ -155,31 +157,12 @@ public class LearnQuoteActivity2 extends SherlockFragmentActivity
 		switch (view.getId()) 
 		{
 			case R.id.learnQuoteActivityLayout_radioButton1:
-			
-				if(isRadioButton1Selected)
-				{
-					isRadioButton1Selected = false;
-					rdBtn1.setChecked(false);
-					firstDescription.setText("");
-				}
-				else
-				{
-					isRadioButton1Selected = true;
-					firstDescription.setText(learnData.firstDisplayText);
-				}
+				rdBtn1.setChecked(true);
+				firstDescription.setText(learnData.firstDisplayText);
 			break;
 			case R.id.learnQuoteActivityLayout_radioButton2:
-				if(isRadioButton2Selected)
-				{
-					isRadioButton2Selected = false;
-					rdBtn2.setChecked(false);
-					secondDescription.setText("");
-				}
-				else
-				{
-					isRadioButton2Selected = true;
-					secondDescription.setText(learnData.secondDisplayText);
-				}
+				rdBtn2.setChecked(true);
+				secondDescription.setText(learnData.secondDisplayText);
 			break;
 		}
 	}

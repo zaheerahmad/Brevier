@@ -214,6 +214,7 @@ public class QuizActivity extends SherlockFragmentActivity
 			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
 				//showDialogBox();
+				disableOption();
 				final Handler handler = new Handler();
 				handler.postDelayed(new Runnable() {
 					
@@ -237,6 +238,7 @@ public class QuizActivity extends SherlockFragmentActivity
 			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
 				//showDialogBox();
+				disableOption();
 				final Handler handler = new Handler();
 				handler.postDelayed(new Runnable() {
 					
@@ -259,6 +261,7 @@ public class QuizActivity extends SherlockFragmentActivity
 			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
 				//showDialogBox();
+				disableOption();
 				final Handler handler = new Handler();
 				handler.postDelayed(new Runnable() {
 					
@@ -284,8 +287,18 @@ public class QuizActivity extends SherlockFragmentActivity
 		uncheckRadioButton(option1);
 		uncheckRadioButton(option2);
 		uncheckRadioButton(option3);
+		option1.setEnabled(true);
+		option2.setEnabled(true);
+		option3.setEnabled(true);
 		optionResultImage.setImageResource(-1);
 		//progressDialog.dismiss();			
+	}
+	
+	public void disableOption(){
+		
+		option1.setEnabled(false);
+		option2.setEnabled(false);
+		option3.setEnabled(false);
 	}
 	
 	public void uncheckRadioButton(RadioButton btn)
