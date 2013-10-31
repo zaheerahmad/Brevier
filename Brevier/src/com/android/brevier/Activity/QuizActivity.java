@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Random;
 
 import android.app.AlertDialog;
-import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -27,7 +26,6 @@ import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.view.MenuItem.OnMenuItemClickListener;
 import com.android.brevier.Service.QuizData;
 import com.android.brevier.Service.TextParser;
-import android.text.TextUtils;
 /**
  * @author Zaheer Ahmad
  *
@@ -43,7 +41,7 @@ public class QuizActivity extends SherlockFragmentActivity
 	List<String> fileText = null;
 	QuizData quizData = null;
 	Random random = new Random();
-	ProgressDialog progressDialog = null;
+	//ProgressDialog progressDialog = null;
 	ImageView optionResultImage = null;
 	int questionNumber = 1;
 	boolean isFirstGame = true;
@@ -60,7 +58,7 @@ public class QuizActivity extends SherlockFragmentActivity
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 	    setContentView(R.layout.quiz_activity_layout);
-		progressDialog = new ProgressDialog(this);
+		//progressDialog = new ProgressDialog(this);
 		option1 = (RadioButton)findViewById(R.id.quizActivity_option1);
 		option2 = (RadioButton)findViewById(R.id.quizActivity_option2);
 		option3 = (RadioButton)findViewById(R.id.quizActivity_option3);
@@ -191,11 +189,11 @@ public class QuizActivity extends SherlockFragmentActivity
 		}
 	}
 
-	public void showDialogBox(){
+	/*public void showDialogBox(){
 		progressDialog.setMessage("Uploading Next Question, Please Wait...");
 		progressDialog.show();
 		progressDialog.setCancelable(false);
-	}
+	}*/
 	public void checkUserAnswer(String selectedOption,String correctAnswer){
 		
 	}
@@ -215,7 +213,7 @@ public class QuizActivity extends SherlockFragmentActivity
 			selectedOption = radioButton.getText().toString();
 			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
-				showDialogBox();
+				//showDialogBox();
 				final Handler handler = new Handler();
 				handler.postDelayed(new Runnable() {
 					
@@ -238,7 +236,7 @@ public class QuizActivity extends SherlockFragmentActivity
 			selectedOption = radioButton.getText().toString();
 			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
-				showDialogBox();
+				//showDialogBox();
 				final Handler handler = new Handler();
 				handler.postDelayed(new Runnable() {
 					
@@ -260,7 +258,7 @@ public class QuizActivity extends SherlockFragmentActivity
 			selectedOption = radioButton.getText().toString();
 			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
-				showDialogBox();
+				//showDialogBox();
 				final Handler handler = new Handler();
 				handler.postDelayed(new Runnable() {
 					
@@ -287,7 +285,7 @@ public class QuizActivity extends SherlockFragmentActivity
 		uncheckRadioButton(option2);
 		uncheckRadioButton(option3);
 		optionResultImage.setImageResource(-1);
-		progressDialog.dismiss();			
+		//progressDialog.dismiss();			
 	}
 	
 	public void uncheckRadioButton(RadioButton btn)
