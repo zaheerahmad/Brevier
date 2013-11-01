@@ -111,30 +111,49 @@ public class QuizActivity extends SherlockFragmentActivity
 					hours = timeArr[0].trim();
 					minutes = timeArr[1].trim();
 					seconds = timeArr[2].trim();
+					AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
+					// set dialog message
+					alertDialogBuilder
+							.setMessage("Du hast in " + hours + " hours, "+ minutes +" Minuten, "+ seconds +" Sekunden, "+ questionNumber +" mal gut gegoethelt.")
+							.setCancelable(false)
+							.setPositiveButton("Weiter",
+									new DialogInterface.OnClickListener() {
+										public void onClick(DialogInterface dialog,
+												int id) {
+											// if this button is clicked, close
+											// current activity
+											finish();
+										}
+									});
+					// create alert dialog
+					AlertDialog alertDialog = alertDialogBuilder.create();
+					// show it
+					alertDialog.show();
 				}
 				else
 				{
 					minutes = timeArr[0].trim();
 					seconds = timeArr[1].trim();
+					AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
+					// set dialog message
+					alertDialogBuilder
+							.setMessage("Du hast in "+ minutes +" Minuten, "+ seconds +" Sekunden, "+ (questionNumber - 1) +" mal gut gegoethelt.")
+							.setCancelable(false)
+							.setPositiveButton("Weiter",
+									new DialogInterface.OnClickListener() {
+										public void onClick(DialogInterface dialog,
+												int id) {
+											// if this button is clicked, close
+											// current activity
+											finish();
+										}
+									});
+					// create alert dialog
+					AlertDialog alertDialog = alertDialogBuilder.create();
+					// show it
+					alertDialog.show();
 				}
-				AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
-				// set dialog message
-				alertDialogBuilder
-						.setMessage("Du hast in "+ minutes +" Minuten, "+ seconds +" Sekunden, "+ hours +" mal gut gegoethelt.")
-						.setCancelable(false)
-						.setPositiveButton("Weiter",
-								new DialogInterface.OnClickListener() {
-									public void onClick(DialogInterface dialog,
-											int id) {
-										// if this button is clicked, close
-										// current activity
-										finish();
-									}
-								});
-				// create alert dialog
-				AlertDialog alertDialog = alertDialogBuilder.create();
-				// show it
-				alertDialog.show();
+				
 				customHandler.removeCallbacks(updateTimerThread);
 			}
 		});		
