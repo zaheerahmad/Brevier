@@ -60,8 +60,9 @@ public class LearnQuoteActivity2 extends SherlockFragmentActivity
 			
 			@Override
 			public void onClick(View v) {
+				
+				clearOption();
 				setNextQuote();
-				clearOption();				
 			}
 		});
 		
@@ -70,9 +71,9 @@ public class LearnQuoteActivity2 extends SherlockFragmentActivity
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				setPreviousQuote();
-				clearOption();
 				
+				clearOption();
+				setPreviousQuote();
 			}
 		});				
 		
@@ -126,7 +127,8 @@ public class LearnQuoteActivity2 extends SherlockFragmentActivity
 					.get(learnCounter));			
 		}
 		subTitle.setText(learnData.subtitle);
-
+		rdBtn1.setChecked(true);
+		firstDescription.setText(learnData.firstDisplayText);
 	}
 	
 	public void setPreviousQuote() {
@@ -140,7 +142,8 @@ public class LearnQuoteActivity2 extends SherlockFragmentActivity
 			
 		}
 		subTitle.setText(learnData.subtitle);
-
+		rdBtn1.setChecked(true);
+		firstDescription.setText(learnData.firstDisplayText);
 	}
 	
 	public void clearOption(){
@@ -185,7 +188,7 @@ public class LearnQuoteActivity2 extends SherlockFragmentActivity
 		public boolean onMenuItemClick(MenuItem item) {
 
 			// Create a simple toast message
-			Toast.makeText(getApplicationContext(), "Going back to Menu", Toast.LENGTH_SHORT).show();
+			//Toast.makeText(getApplicationContext(), "Going back to Menu", Toast.LENGTH_SHORT).show();
 			finish();
 			// Do something else
 			return false;

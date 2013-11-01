@@ -331,7 +331,7 @@ public class QuizActivity extends SherlockFragmentActivity
 		public boolean onMenuItemClick(MenuItem item) {
 
 			// Create a simple toast message
-			Toast.makeText(getApplicationContext(), "Going back to Menu", Toast.LENGTH_SHORT).show();
+			//Toast.makeText(getApplicationContext(), "Going back to Menu", Toast.LENGTH_SHORT).show();
 			finish();
 			// Do something else
 			return false;

@@ -5,7 +5,6 @@ package com.android.brevier.Activity;
 
 import java.util.List;
 
-import android.net.rtp.RtpStream;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -61,8 +60,9 @@ public class LearnQuoteActivity1 extends SherlockFragmentActivity
 			
 			@Override
 			public void onClick(View v) {
+				
+				clearOption();
 				setNextQuote();
-				clearOption();				
 			}
 		});
 		
@@ -71,8 +71,9 @@ public class LearnQuoteActivity1 extends SherlockFragmentActivity
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				setPreviousQuote();
+				
 				clearOption();
+				setPreviousQuote();
 				
 			}
 		});				
@@ -127,7 +128,8 @@ public class LearnQuoteActivity1 extends SherlockFragmentActivity
 					.get(learnCounter));			
 		}
 		subTitle.setText(learnData.subtitle);
-
+		rdBtn1.setChecked(true);
+		firstDescription.setText(learnData.firstDisplayText);
 	}
 	
 	public void setPreviousQuote() {
@@ -141,7 +143,8 @@ public class LearnQuoteActivity1 extends SherlockFragmentActivity
 			
 		}
 		subTitle.setText(learnData.subtitle);
-
+		rdBtn1.setChecked(true);
+		firstDescription.setText(learnData.firstDisplayText);
 	}
 	
 	public void clearOption(){
@@ -186,7 +189,7 @@ public class LearnQuoteActivity1 extends SherlockFragmentActivity
 		public boolean onMenuItemClick(MenuItem item) {
 
 			// Create a simple toast message
-			Toast.makeText(getApplicationContext(), "Going back to Menu", Toast.LENGTH_SHORT).show();
+			//Toast.makeText(getApplicationContext(), "Going back to Menu", Toast.LENGTH_SHORT).show();
 			finish();
 			// Do something else
 			return false;
