@@ -7,9 +7,53 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".BrevierMainActivity" 
-    android:background="@drawable/bg_screen1">
+    android:background="#000000">
     
+    <LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:id="@+id/mainActivityLayout_titleImage"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/title"
+            android:adjustViewBounds="true"
+            android:contentDescription="Title Image"
+            />
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        >
+        <TextView 
+        android:id="@+id/mainActivityLayout_titleTextHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d6d6d6"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:gravity="center_horizontal"
+        android:text="@string/titleTextHeading"
+        android:layout_marginTop="5dp"/>
+    
+    <TextView 
+        android:id="@+id/mainActivityLayout_titleText"
+        android:layout_below="@+id/mainActivityLayout_titleTextHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#d6d6d6"
+        android:layout_marginLeft="2dp"
+        android:text="@string/titleText"/>
     <Button 
+        android:layout_below="@+id/mainActivityLayout_titleText"
         android:id="@+id/mainActivityLayout_StartButton"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
@@ -17,5 +61,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Start"/>
+    </RelativeLayout>
+	</LinearLayout>
+    
+    
     
 </RelativeLayout>

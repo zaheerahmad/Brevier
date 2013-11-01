@@ -114,7 +114,7 @@ public class QuizActivity extends SherlockFragmentActivity
 					AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
 					// set dialog message
 					alertDialogBuilder
-							.setMessage("Du hast in " + hours + " hours, "+ minutes +" Minuten, "+ seconds +" Sekunden, "+ questionNumber +" mal gut gegoethelt.")
+							.setMessage("Du hast in " + hours + " hours, "+ minutes +" Minuten, "+ seconds +" Sekunden, "+ (questionNumber - 2) +" mal gut gegoethelt.")
 							.setCancelable(false)
 							.setPositiveButton("Weiter",
 									new DialogInterface.OnClickListener() {
@@ -137,7 +137,7 @@ public class QuizActivity extends SherlockFragmentActivity
 					AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
 					// set dialog message
 					alertDialogBuilder
-							.setMessage("Du hast in "+ minutes +" Minuten, "+ seconds +" Sekunden, "+ (questionNumber - 1) +" mal gut gegoethelt.")
+							.setMessage("Du hast in "+ minutes +" Minuten, "+ seconds +" Sekunden, "+ (questionNumber - 2) +" mal gut gegoethelt.")
 							.setCancelable(false)
 							.setPositiveButton("Weiter",
 									new DialogInterface.OnClickListener() {

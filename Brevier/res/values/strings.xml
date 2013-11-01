@@ -24,4 +24,8 @@
     <string name="learnQuoteTitle1">Junger Goethe</string>
     <string name="learQuoteTitle2">Reifer Goethe</string>
     <string name="learQuoteTitle3">Weiser Goethe</string>
+    
+    
+    <string name="titleTextHeading">Mein Goethe-Brevier</string>
+    <string name="titleText">Doch das größte Glück im Leben\nUnd der reichlichste Gewinn\nIst ein guter, leichter Sinn.\n\nVom klassischen Goethe kannst du viel lernen.\nHier findest du eine schöne Sammlung zur Erbauung und zum Nachdenken.</string>
 </resources>

@@ -933,6 +933,7 @@ containing a value of this type.
         public static final int option_checkmark=0x7f020084;
         public static final int previous=0x7f020085;
         public static final int stop_btn_2=0x7f020086;
+        public static final int title=0x7f020087;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f040020;
@@ -974,43 +975,46 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040013;
         public static final int abs__title=0x7f04001b;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040051;
+        public static final int action_settings=0x7f040054;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040026;
         public static final int homeAsUp=0x7f040006;
-        public static final int learnQuoteActivityLayout_firstDescriptionText=0x7f04003b;
-        public static final int learnQuoteActivityLayout_lLayoutRadioButton1=0x7f040039;
-        public static final int learnQuoteActivityLayout_lLayoutRadioButton2=0x7f04003c;
-        public static final int learnQuoteActivityLayout_nextButton=0x7f040035;
-        public static final int learnQuoteActivityLayout_previousButton=0x7f040034;
-        public static final int learnQuoteActivityLayout_rLayoutDescriptions=0x7f040038;
-        public static final int learnQuoteActivityLayout_rLayoutNavigationButtons=0x7f040033;
-        public static final int learnQuoteActivityLayout_rLayoutSubtitle=0x7f040036;
-        public static final int learnQuoteActivityLayout_radioButton1=0x7f04003a;
-        public static final int learnQuoteActivityLayout_radioButton2=0x7f04003d;
-        public static final int learnQuoteActivityLayout_secondDescriptionText=0x7f04003e;
-        public static final int learnQuoteActivityLayout_subtitleTextView=0x7f040037;
+        public static final int learnQuoteActivityLayout_firstDescriptionText=0x7f04003e;
+        public static final int learnQuoteActivityLayout_lLayoutRadioButton1=0x7f04003c;
+        public static final int learnQuoteActivityLayout_lLayoutRadioButton2=0x7f04003f;
+        public static final int learnQuoteActivityLayout_nextButton=0x7f040038;
+        public static final int learnQuoteActivityLayout_previousButton=0x7f040037;
+        public static final int learnQuoteActivityLayout_rLayoutDescriptions=0x7f04003b;
+        public static final int learnQuoteActivityLayout_rLayoutNavigationButtons=0x7f040036;
+        public static final int learnQuoteActivityLayout_rLayoutSubtitle=0x7f040039;
+        public static final int learnQuoteActivityLayout_radioButton1=0x7f04003d;
+        public static final int learnQuoteActivityLayout_radioButton2=0x7f040040;
+        public static final int learnQuoteActivityLayout_secondDescriptionText=0x7f040041;
+        public static final int learnQuoteActivityLayout_subtitleTextView=0x7f04003a;
         public static final int listMode=0x7f040002;
-        public static final int mainActivityLayout_StartButton=0x7f040032;
+        public static final int mainActivityLayout_StartButton=0x7f040035;
+        public static final int mainActivityLayout_titleImage=0x7f040032;
+        public static final int mainActivityLayout_titleText=0x7f040034;
+        public static final int mainActivityLayout_titleTextHeading=0x7f040033;
         public static final int normal=0x7f040001;
-        public static final int quizActivity_lLayoutOption1=0x7f040044;
-        public static final int quizActivity_lLayoutOption2=0x7f040046;
-        public static final int quizActivity_lLayoutOption3=0x7f040048;
-        public static final int quizActivity_option1=0x7f040045;
-        public static final int quizActivity_option2=0x7f040047;
-        public static final int quizActivity_option3=0x7f040049;
-        public static final int quizActivity_optionLinearLayout=0x7f040043;
-        public static final int quizActivity_optionResultImage=0x7f04004a;
-        public static final int quizActivity_questionNoText=0x7f04003f;
-        public static final int quizActivity_questionTextInWhite=0x7f040041;
-        public static final int quizActivity_questionTextInYellow=0x7f040042;
-        public static final int quizActivity_stopButton=0x7f04004b;
-        public static final int quizActivity_timeText=0x7f040040;
-        public static final int selectCategoryActivityLayout_ImageIcon=0x7f04004c;
-        public static final int selectCategoryActivityLayout_btnCategoryLearn1=0x7f04004d;
-        public static final int selectCategoryActivityLayout_btnCategoryLearn2=0x7f04004e;
-        public static final int selectCategoryActivityLayout_btnCategoryLearn3=0x7f04004f;
-        public static final int selectCategoryActivityLayout_btnStartQuiz=0x7f040050;
+        public static final int quizActivity_lLayoutOption1=0x7f040047;
+        public static final int quizActivity_lLayoutOption2=0x7f040049;
+        public static final int quizActivity_lLayoutOption3=0x7f04004b;
+        public static final int quizActivity_option1=0x7f040048;
+        public static final int quizActivity_option2=0x7f04004a;
+        public static final int quizActivity_option3=0x7f04004c;
+        public static final int quizActivity_optionLinearLayout=0x7f040046;
+        public static final int quizActivity_optionResultImage=0x7f04004d;
+        public static final int quizActivity_questionNoText=0x7f040042;
+        public static final int quizActivity_questionTextInWhite=0x7f040044;
+        public static final int quizActivity_questionTextInYellow=0x7f040045;
+        public static final int quizActivity_stopButton=0x7f04004e;
+        public static final int quizActivity_timeText=0x7f040043;
+        public static final int selectCategoryActivityLayout_ImageIcon=0x7f04004f;
+        public static final int selectCategoryActivityLayout_btnCategoryLearn1=0x7f040050;
+        public static final int selectCategoryActivityLayout_btnCategoryLearn2=0x7f040051;
+        public static final int selectCategoryActivityLayout_btnCategoryLearn3=0x7f040052;
+        public static final int selectCategoryActivityLayout_btnStartQuiz=0x7f040053;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
@@ -1113,6 +1117,8 @@ containing a value of this type.
         /**  Button Text Strings 
          */
         public static final int start_quiz_button_text=0x7f090012;
+        public static final int titleText=0x7f09001b;
+        public static final int titleTextHeading=0x7f09001a;
     }
     public static final class style {
         /** 

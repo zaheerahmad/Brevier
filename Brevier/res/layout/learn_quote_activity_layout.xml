@@ -73,11 +73,12 @@
 			<EditText 
 			    android:layout_below="@+id/learnQuoteActivityLayout_lLayoutRadioButton1"
 			    android:layout_width="match_parent"
-			    android:layout_height="wrap_content"
+			    android:layout_height="250dp"
 			    android:gravity="top|left"
 			    android:textSize="18sp"
 			    android:editable="false"
 			    android:background="#d6d6d6"
+			    android:paddingLeft="10dp"
 			    android:id="@+id/learnQuoteActivityLayout_firstDescriptionText"/>
 			<LinearLayout 
 			    android:layout_below="@+id/learnQuoteActivityLayout_firstDescriptionText"
@@ -100,11 +101,12 @@
 			<EditText 
 			    android:layout_below="@+id/learnQuoteActivityLayout_lLayoutRadioButton2"
 			    android:layout_width="match_parent"
-			    android:layout_height="wrap_content"
+			    android:layout_height="250dp"
 			    android:gravity="top|left"
 			    android:textSize="18sp"
 			    android:editable="false"
 			    android:background="#d6d6d6"
+			    android:paddingLeft="10dp"
 			    android:id="@+id/learnQuoteActivityLayout_secondDescriptionText"/>
 	    </RelativeLayout>
 	</RelativeLayout>    
