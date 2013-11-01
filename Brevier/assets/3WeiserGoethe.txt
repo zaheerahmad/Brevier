@@ -120,3 +120,125 @@
 120;West-östl. Divan;Lass dich nur in keiner Zeit"|"Zum Widerspruch verleiten,;Weise fallen in Unwissenheit"|"Wenn sie mit Unwissenden streiten.
 121;West-östl. Divan;Lasst mich nur auf meinem Sattel gelten!"|"Bleibt in euren Hütten, euren Zelten!;Und ich reite froh in alle Ferne,"|"Über meiner Mütze nur die Sterne.
 122;West-östl. Divan;Lieb’ um Liebe Stund’ um Stunde"|"Wort um Wort und Blick um Blick,;Kuss um Kuss, vom treusten Munde,"|"Hauch um Hauch und Glück um Glück.
+1;West-östl. Divan;Ihr nennt mich einen kargen Mann"|"Gebt mir was ich verprassen kann.;Soll ich dir die Gegend zeigen,"|"Musst du erst das Dach besteigen.
+2;West-östl. Divan;Ich gedachte in der Nacht"|"Dass ich den Mond sähe im Schlaf.;Als ich aber erwachte"|"Ging unvermutet die Sonne auf.
+3;West-östl. Divan;Höre den Rat den die Leier tönt"|"Doch er nutzet nur, wenn du fähig bist.;Das glücklichste Wort, es wird verhöhnt"|"Wenn der Hörer ein Schiefohr ist.
+4;West-östl. Divan;Hab’ ich euch denn je geraten"|"Wie ihr Kriege führen solltet?;Schalt ich euch nach euren Taten"|"Wenn ihr Friede schließen wolltet?
+5;Aus den Maximen;Es ist viel mehr schon entdeckt, als man glaubt.;Auch einsichtige Menschen bemerken nicht, dass sie dasjenige erklären wollen, was Grunderfahrungen sind, bei denen man sich beruhigen müsste.
+6;Aus den Maximen;Eine jede Idee tritt als ein fremder Gast in die Erscheinung, und wie sie sich zu realisieren beginnt, ist sie kaum von Phantasie und Phantasterei zu unterscheiden.;Jeder, der eine Zeitlang auf dem redlichen Forschen verharrt, muss seine Methode irgendeinmal umändern.
+7;Aus den Maximen;Gleiche oder wenigstens ähnliche Wirkungen werden auf verschiedene Weise durch Naturkräfte hervorgebracht.;Der Mensch an sich selbst, insofern er sich seiner gesunden Sinne bedient, ist der größte und genaueste physikalische Apparat, den es geben kann.
+8;Aus den Maximen;Steine sind stumme Lehrer, sie machen den Beobachter stumm, und das Beste, was man von ihnen lernt, ist nicht mitzuteilen.;Diejenigen, die das einzige grundklare Licht aus farbigen Lichtern zusammensetzen, sind die eigentlichen Obskuranten.
+9;Aus den Maximen;Gegen die Kritik kann man sich weder schützen noch wehren, man muss ihr zum Trutz handeln, und das läs sie sich nach und nach gefallen.;Man muss sein Glaubensbekenntnis von Zeit zu Zeit wiederholen, aussprechen, was man billigt, was man verdammt.
+10;Aus den Maximen;Es ist weit eher möglich, sich in den Zustand eines Gehirns zu versetzen, das im entschiedensten Irrtum befangen ist, als eines, das Halbwahrheiten sich vorspiegelt.;Zuerst belehre man sich selbst, dann wird man Belehrung von andern empfangen.
+11;Aus den Maximen;Jedes gute und schlechte Kunstwerk, sobald es entstanden ist, gehört zur Natur.;Selbst im Augenblick des höchsten Glücks und der höchsten Not bedürfen wir des Künstlers.
+12;Aus den Maximen;Das Erste und Letzte, was vom Genie gefordert wird, ist Wahrheitsliebe.;Es gibt nichts Gemeines, was, fratzenhaft ausgedrückt, nicht humoristisch aussähe.
+13;Aus den Maximen;Der Rhythmus hat etwas Zauberisches, sogar macht er uns glauben, das Erhabene gehöre uns an.;Das Talent entwickelt im Praktischen alles und braucht von den theoretischen Einzelheiten nicht Notiz zu nehmen.
+14;Aus den Maximen;Es ist so schwer, etwas von Mustern zu lernen, als von der Natur. Vollkommene Künstler haben mehr dem Unterricht als der Natur zu danken.;Nur in der Schule selbst ist die eigentliche Vorschule.
+15;Aus den Maximen;Fehler der Dilettanten: Phantasie und Technik unmittelbar verbinden zu wollen.;Die Technik im Bündnis mit dem Abgeschmackten ist die fürchterlichste Feindin der Kunst.
+16;Aus den Maximen;Dilettantismus, ernstlich behandelt, und Wissenschaft, mechanisch betrieben, werden Pedanterei.;Große Leidenschaften sind Krankheiten ohne Hoffnung. Was sie heilen könnte, macht sie erst recht gefährlich.
+17;Aus den Maximen;Wenn ihr sagt: Wir machen es so , da hat kein Mensch was dagegen. Sagt ihr aber: Ihr sollt's auch so machen, da kommt ihr um vieles zu spät.;Ein Künstler, der schätzbare Arbeiten verfertigt, ist nicht immer imstande, von eignen oder fremden Werken Rechenschaft zu geben.
+18;Aus den Maximen;Nur ein Vater neidet seinem Sohn nicht das Talent.;Der mittelmäßigste Roman ist immer noch besser als die mittelmäßigen Leser.
+19;Aus den Maximen;Innerhalb einer Epoche gibt es keinen Standpunkt, eine Epoche zu betrachten.;Leider bedenkt man nicht, dass man in seiner Muttersprache oft ebenso dichtet, als wenn es eine fremde wäre.
+20;Aus den Maximen;Wer fremde Sprachen nicht kennt, weiß nichts von seiner eigenen.;Nicht die Sprache an und für sich ist richtig, tüchtig, zierlich, sondern der Geist ist es, der sich darin verkörpert.
+21;West-östl. Divan;Gottes ist der Orient!"|"Gottes ist der Okzident!;Nord- und südliches Gelände"|"Ruht im Frieden seiner Hände.
+22;West-östl. Divan;Glaubst du denn von Mund zu Ohr"|"Sei ein redlicher Gewinnst?;Überliefrung, o! du Tor!"|"Ist auch wohl ein Hirngespinst.
+23;West-östl. Divan;Getretner Quark"|"Wird breit, nicht stark.;Schlägst du ihn aber mit Gewalt"|"In feste Form, er nimmt Gestalt.
+24;West-östl. Divan;Geld und Ehre hätte man"|"Gern allein zur Spende,;Und der Wein, der treue Mann,"|"Der entzweit am Ende.
+25;West-östl. Divan;Frauen sollen nichts verlieren,"|"Reiner Treue ziemt zu hoffen,;Doch wir wissen nur von vieren"|"Die alldort schon eingetroffen.
+26;West-östl. Divan;Einen Helden mit Lust preisen und nennen"|"Wird jeder, der selbst als kühner stritt.;Des Menschen Wert kann niemand erkennen"|"Der nicht selbst Hitze und Kälte litt.
+27;West-östl. Divan;Ein Herre mit zwei Gesind"|"Er wird nicht wohl gepflegt.;Ein Haus worin zwey Weiber sind"|"Es wird nicht rein gefegt.
+28;West-östl. Divan;Dümmer ist nichts zu ertragen,"|"Als wenn Dumme sagen den Weisen:;Dass sie sich in großen Tagen"|"Sollten bescheidentlich erweisen.
+29;West-östl. Divan;Nicht Gelegenheit macht Diebe,"|"Sie ist selbst der grösste Dieb,;Denn sie stahl den Rest der Liebe"|"Die mir noch im Herzen blieb.
+30;West-östl. Divan;Nimmer will ich dich verlieren!"|"Liebe gibt der Liebe Kraft.;Magst du meine Jugend zieren"|"Mit gewaltiger Leidenschaft.
+31;West-östl. Divan;Nur dies Herz, es ist von Dauer,"|"Schwillt in jugendlichstem Flor,;Unter Schnee und Nebelschauer"|"Rast ein Ätna dir hervor.
+32;West-östl. Divan;Oft sitz’ ich heiter in der Schenke"|"Und heiter im beschränkten Haus,;Allein so bald ich dein gedenke,"|"Dehnt sich mein Geist erobernd aus.
+33;West-östl. Divan;Schenke her! Noch eine Flasche!"|"Diesen Becher bring ich Ihr!;Findet sie ein Häufchen Asche,"|"Sagt sie: Der verbrannte mir.
+34;West-östl. Divan;Scherze nicht! Nichts von Verarmen!"|"Macht uns nicht die Liebe reich?;Halt ich dich in meinen Armen,"|"Jedem Glück ist meines gleich.
+35;West-östl. Divan;Sitz’ ich allein,"|"Wo kann ich besser sein?"|"Meinen Wein"|"Trink’ ich allein,;Niemand setzt mir Schranken,"|"Ich hab’ so meine eigne Gedanken.
+36;West-östl. Divan;Soll ich von Smaragden reden,"|"Die dein Finger niedlich zeigt?;Manchmal ist ein Wort vonnöten,"|"Oft ist’s besser dass man schweigt.
+37;West-östl. Divan;Trunken müssen wir alle sein!"|"Jugend ist Trunkenheit ohne Wein.;Trinkt sich das Alter wieder zu Jugend,"|"So ist es wundervolle Tugend.
+38;West-östl. Divan;Und so lang du das nicht hast,"|"Dieses: Stirb und werde!;Bist du nur ein trüber Gast"|"Auf der dunklen Erde.
+39;West-östl. Divan;Und so werdet ihr vernehmen"|"Dass der Mensch, mit sich zufrieden,;Gern sein Ich gerettet sähe,"|"So da droben wie hienieden.
+40;West-östl. Divan;Vieles wird sich da und hie"|"Uns entgegen stellen.;In der Liebe mag man nie"|"Helfer und Gesellen.
+41;Aus den Maximen;Zum idealen Teile gehört der Kredit, zum realen Besitztum, physische Macht usw.;Die Weisheit ist nur in der Wahrheit.
+42;Aus den Maximen;Zu berichtigen verstehen die Deutschen, nicht nachzuhelfen.;Fehler der sogenannten Aufklärung: dass sie Menschen Vielseitigkeit gibt, deren einseitige Lage man nicht ändern kann.
+43;Aus den Maximen;Zensur und Pressefreiheit werden immerfort miteinander kämpfen. Zensur fordert und übt der Mächtige, Pressefreiheit verlangt der Mindere.;Ob eine Nation reif werden könne, ist eine wunderliche Frage. Ich beantworte sie mit Ja, wenn alle Männer als dreißigjährige geboren werden könnten.
+44;Aus den Maximen;Wie soll nun aber ein junger Mann für sich selbst dahin gelangen, dasjenige für tadelnswert und schädlich anzusehen, was jedermann treibt, billigt und fördert?;Warum soll er sich nicht und sein Naturell auch dahin gehen lassen?
+45;West-östl. Divan;Wie kommt’s dass man an jedem Orte"|"So viel Gutes, so viel Dummes hört?;Die Jüngsten wiederholen der Ältesten Worte,"|"Und glauben dass es ihnen angehört.
+46;West-östl. Divan;Wer nicht von dreitausend Jahren"|"Sich weiß Rechenschaft zu geben,;Bleib im Dunkeln unerfahren,"|"Mag von Tag zu Tage leben.
+47;Aus den Maximen;Wer die Natur als göttliches Organ leugnen will, der leugne nur gleich alle Offenbarung.;Was man Idee nennt: Das, was immer zur Erscheinung kommt und daher als Gesetz aller Erscheinungen uns entgegentritt.
+48;West-östl. Divan;Wer das Dichten will verstehen"|"Muss in’s Land der Dichtung gehen.;Wer den Dichter will verstehen"|"Muss in Dichters Lande gehen.
+49;West-östl. Divan;Wenn man nicht trinken kann,"|"Soll man nicht lieben,;Doch sollt ihr Trinker euch"|"Nicht besser dünken,"|"Wenn man nicht lieben kann"|"Soll man nicht trinken.
+50;West-östl. Divan;Wenn du auf dem Guten ruhst,"|"Nimmer werd’ ich’s tadeln,;Wenn du gar das Gute tust,"|"Sieh, das soll dich adeln.
+51;West-östl. Divan;Wenn des Dichters Mühle geht"|"Halte sie nicht ein:;Denn, wer einmal uns versteht,"|"Wird uns auch verzeihn.
+52;Aus den Maximen;Welche Regierung die beste sei? Diejenige, die uns lehrt, uns selbst zu regieren.;Herrschen lernt sich leicht, Regieren schwer.
+53;West-östl. Divan;Was verkürzt mir die Zeit?"|"Tätigkeit!;Was macht sie unerträglich lang?"|"Müßiggang!
+54;West-östl. Divan;Was schmückst du die eine Hand denn nun"|"Weit mehr als ihr gebührte.;Was sollte denn die linke tun,"|"Wenn sie die rechte nicht zierte?
+55;West-östl. Divan;Was klagst du über Feinde?"|"Sollten solche je werden Freunde,;Denen das Wesen, wie du bist,"|"Im Stillen ein ewiger Vorwurf ist.
+56;West-östl. Divan;Was bringt in Schulden?"|"Harren und Dulden!;Was macht Gewinnen?"|"Nicht lange besinnen!
+57;West-östl. Divan;Vom heut’gen Tag, von heut’ger Nacht"|"Verlange nichts,;Als was die gestrigen gebracht.
+58;Aus den Maximen;Unser ganzes Kunststück besteht darin, dass wir unsere Existenz aufgeben, um zu existieren.;In der Idee leben heißt, das Unmögliche behandeln, als wenn es möglich wäre.
+59;Aus den Maximen;So wenig nun die Dampfmaschinen zu dämpfen sind, so wenig ist dies auch im Sittlichen möglich.;Was ist das für eine Zeit, wo man die Begrabenen beneiden muss?
+60;Aus den Maximen;Setze den Stein nach der Richtschnur, nicht die Richtschnur nach dem Stein.;Es sind immer nur unsere Augen, unsere Vorstellungsarten, die Natur weiß ganz allein, was sie will, was sie gewollt hat.
+61;Aus den Maximen;Nach Pressefreiheit schreit niemand, als wer sie missbrauchen will.;Wo man die Liberalität aber suchen muss, das ist in den Gesinnungen, und diese sind das lebendige Gemüt.
+62;Aus den Maximen;Nach Analogien denken ist nicht zu schelten: Die Analogie hat den Vorteil, dass sie nicht abschließt und eigentlich nichts Letztes will,;dagegen die Induktion verderblich ist, die einen vorgesetzten Zweck im Auge trägt und, auf denselben losarbeitend, Falsches und Wahres mit sich fortreißt.
+63;Aus den Maximen;Man sieht gleich, wo die zwei notwendigsten Eigenschaften fehlen: Geist und Gewalt.;Es gibt zwei friedliche Gewalten: das Recht und die Schicklichkeit.
+64;Aus den Maximen;In der Gesellschaft sind alle gleich. Es kann keine Gesellschaft anders als auf den Begriff der Gleichheit gegründet sein, keineswegs aber auf den Begriff der Freiheit.;Die Gleichheit will ich in der Gesellschaft finden, die Freiheit, nämlich die sittliche, dass ich mich subordinieren mag, bringe ich mit.
+65;Aus den Maximen;Ich höre das ganze Jahr jedermann anders reden, als ich's meine, warum sollt' ich denn auch nicht einmal sagen, wie ich gesinnt bin?;Das Erlebte weiß jeder zu schätzen, am meisten der Denkende und Nachsinnende im Alter, er fühlt mit Zuversicht und Behaglichkeit, dass ihm das niemand rauben kann.
+66;Aus den Maximen;Gehen wir in die Geschichte zurück, so finden wir überall Persönlichkeiten, mit denen wir uns vertrügen, andere, mit denen wir uns gewiss in Widerstreit befänden.;Unter allen Völkerschaften haben die Griechen den Traum des Lebens am schönsten geträumt.
+67;Aus den Maximen;Geheimnisse sind noch keine Wunder.;Glaube ist Liebe zum Unsichtbaren, Vertrauen aufs Unmögliche, Unwahrscheinliche.
+68;Aus den Maximen;Es ist nichts furchtbarer anzuschauen als grenzenlose Tätigkeit ohne Fundament.;Glücklich diejenigen, die im Praktischen gegründet sind und sich zu gründen wissen!
+69;Aus den Maximen;Einen gerüsteten, auf die Defensive berechneten Zustand kann kein Staat aushalten.;In den Zeitungen ist alles Offizielle geschraubt, das übrige platt.
+70;Aus den Maximen;Eine Chronik schreibt nur derjenige, dem die Gegenwart wichtig ist.;Den einzelnen Verkehrtheiten des Tags sollte man immer nur große weltgeschichtliche Massen entgegensetzen.
+71;Aus den Maximen;Ein historisches Menschengefühl heißt ein dergestalt gebildetes, dass es bei Schätzung gleichzeitiger Verdienste und Verdienstlichkeiten auch die Vergangenheit mit in Anschlag bringt.;Das Beste, was wir von der Geschichte haben, ist der Enthusiasmus, den sie erregt.
+72;Aus den Maximen;Die Wirksamkeiten, auf die wir achten müssen, sind: vorbereitende, begleitende, mitwirkende, nachhelfende, verstärkende, hindernde, nachwirkende.;Wer hätte mit mir Geduld haben sollen, wenn ich's nicht gehabt hätte.
+73;Aus den Maximen;Die Kirche schwächt alles, was sie anrührt.;Die christliche Religion ist eine intentionierte politische Revolution, die, verfehlt, nachher moralisch geworden ist.
+74;Aus den Maximen;Der Konflikt des Individuums mit der unmittelbaren Erfahrung und der mittelbaren Überlieferung ist eigentlich die Geschichte der Wissenschaften.;Mit Gedanken, die nicht aus der tätigen Natur entsprungen sind und nicht wieder aufs tätige Leben wohltätig hinwirken, ist der Welt wenig geholfen.
+75;Aus den Maximen;Der echte Deutsche bezeichnet sich durch mannigfaltige Bildung und Einheit des Charakters.;Der Deutsche hat Freiheit der Gesinnung, und daher merkt er es nicht, wenn es ihm an Geschmacks- und Geistesfreiheit fehlt.
+76;Aus den Maximen;Alles, was entsteht, sucht sich Raum und will Dauer, deswegen verdrängt es ein anderes vom Platz und verkürzt seine Dauer.;Natur hat zu nichts gesetzmäßige Fähigkeit, was sie nicht gelegentlich ausführte und zutage brächte.
+77;Aus den Maximen;Alles Lebendige bildet eine Atmosphäre um sich her.;Das unheilbare Übel religioser Streitigkeiten besteht darin, dass der eine Teil auf Märchen und leere Worte das höchste Interesse der Menschheit zurückführen will, der andere aber es da zu begründen denkt.
+78;Aus den Maximen;Alle Gesetze sind Versuche, sich den Absichten der moralischen Weltordnung im Welt- und Lebenslaufe zu nähern.;Wenn sich die Sozietät des Rechtes begibt, die Todesstrafe zu verfügen, so tritt die Selbsthilfe unmittelbar wieder hervor: Die Blutrache klopft an die Türe.
+79;Aus den Maximen;Das Wahre ist eine Fackel, aber eine ungeheure, deswegen suchen wir alle, nur blinzelnd so daran vorbei zu kommen, in Furcht sogar, uns zu verbrennen.;Die Sinne trügen nicht, das Urteil trügt.
+80;Aus den Maximen;Auch in Wissenschaften kann man eigentlich nichts wissen, es will immer getan sein.;Wissen: das Bedeutende der Erfahrung, das immer ins Allgemeine hinweist.
+81;Aus den Maximen;Wenn mancher sich nicht verpflichtet fühlte, das Unwahre zu wiederholen, weil er's einmal gesagt hat, so wären es ganz andere Leute geworden.;Der eigentliche Obskurantismus ist nicht, dass man die Ausbreitung des Wahren, Klaren, Nützlichen hindert, sondern dass man das Falsche in Kurs bringt.
+82;Aus den Maximen;Der Scharfsinn verlässt geistreiche Männer am wenigsten, wenn sie unrecht haben.;Es gibt Menschen, die gar nicht irren, weil sie sich nichts Vernünftiges vorsetzen.
+83;Aus den Maximen;Deutlichkeit ist eine gehörige Verteilung von Licht und Schatten.;Was ist denn das Erfinden? Es ist der Abschluss des Gesuchten.
+84;Aus den Maximen;Denn wenn wir uns dem Altertum gegenüber stellen und es ernstlich in der Absicht anschauen, uns daran zu bilden, so gewinnen wir die Empfindung, als ob wir erst eigentlich zu Menschen würden.;Sich den Objekten in der Breite gleichstellen, heißt lernen, die Objekte in ihrer Tiefe auffassen, heißt erfinden.
+85;Aus den Maximen;Es sind zwei Gefühle, die schwersten, zu überwinden: Gefunden zu haben, was schon gefunden ist, und nicht gefunden zu sehen, was man hätte finden sollen.;Alles Gescheite ist schon gedacht worden, man muss nur versuchen, es noch einmal zu denken.
+86;Aus den Maximen;Altes Fundament ehrt man, darf aber das Recht nicht aufgeben, irgendwo wieder einmal von vorn zu gründen.;Nur die gegenwärtige Wissenschaft gehört uns an, nicht die vergangene noch die zukünftige.
+87;Aus den Maximen;Die Wissenschaften zerstören sich auf doppelte Weise selbst: durch die Breite, in die sie gehen, und durch die Tiefe, in die sie sich versenken.;Alles, was man ( in Wissenschaften ) fordert, ist so ungeheuer, dass man recht gut begreift, dass gar nichts geleistet wird.
+88;Aus den Maximen;In den Wissenschaften ist viel Gewisses, sobald man sich von den Ausnahmen nicht irremachen lässt und die Probleme zu ehren weiß.;Man sagt, zwischen zwei entgegengesetzten Meinungen liege die Wahrheit mitten inne. Keineswegs!
+89;Aus den Maximen;Man kann die Nützlichkeit einer Idee anerkennen und doch nicht recht verstehen, sie vollkommen zu nutzen.;Deswegen sind Bücher willkommen, die uns sowohl das neu empirisch Aufgefundene als die neubeliebten Methoden darlegen.
+90;Aus den Maximen;Wenn wir das, was wir wissen, nach anderer Methode oder wohl gar in fremder Sprache dargelegt finden, so erhält es einen sonderbaren Reiz der Neuheit und frischen Ansehens.;Was soll denn da aus dem werden, was wir Wissen und Wissenschaft nennen? In hundert Jahren wird es ganz anders aussehen.
+91;Aus den Maximen;Die neuere Zeit schätzt sich selbst zu hoch, wegen der großen Masse Stoffes, den sie umfasst.;Der Hauptvorzug des Menschen beruht aber nur darauf, inwiefern er den Stoff zu behandeln und zu beherrschen weiß.
+92;Aus den Maximen;Gewisse Tugenden gehören der Zeit an, und so auch gewisse Mängel, die einen Bezug auf sie haben.;Es ist etwas unbekanntes Gesetzliches im Objekt, welches dem unbekannten Gesetzlichen im Subjekt entspricht.
+93;Aus den Maximen;Das Närrischste ist, dass jeder glaubt, überliefern zu müssen, was man gewusst zu haben glaubt.;Wir gestehen lieber unsre moralischen Irrtümer, Fehler und Gebrechen als unsre wissenschaftlichen.
+94;Aus den Maximen;Wissenschaften entfernen sich im Ganzen immer vom Leben und kehren nur durch einen Umweg wieder dahin zurück.;Man tut nicht wohl, sich allzulange im Abstrakten aufzuhalten. Das Esoterische schadet nur. Leben wird am besten durchs Lebendige belehrt.
+95;Aus den Maximen;Das Allgemeine und Besondere fallen zusammen: Das Besondere ist das Allgemeine, unter verschiedenen Bedingungen erscheinend.;Die Konstanz der Phänomene ist allein bedeutend, was wir dabei denken, ist ganz einerlei.
+96;Aus den Maximen;Die Erscheinung ist vom Beobachter nicht losgelöst, vielmehr in die Individualität desselben verschlungen und verwickelt.;Es ist daher das Beste, wenn wir bei Beobachtungen so viel als möglich uns der Gegenstände und beim Denken darüber so viel als möglich uns unser selbst bewusst sind.
+97;Aus den Maximen;Ich denke immer, wenn ich einen Druckfehler sehe, es sei etwas Neues erfunden.;Der Mensch wäre nicht der Vornehmste auf der Erde, wenn er nicht zu vornehm für sie wäre.
+98;Aus den Maximen;Wir mögen die Welt kennen lernen, wie wir wollen, sie wird immer eine Tag- und eine Nachtseite behalten.;Wäre es Gott darum zu tun gewesen, dass die Menschen in der Wahrheit leben und handeln sollten, so hätte er seine Einrichtungen anders machen müssen.
+99;Aus den Maximen;Die Arbeit macht den Gesellen.;Wir sind nie entfernter von unsern Wüschen, als wenn wir uns einbilden, das Gewünschte zu besitzen.
+100;Aus den Maximen;Die empirisch-sittliche Welt besteht größtenteils nur aus bösem Willen und Neid.;Was aber ist deine Pflicht? Die Forderung des Tages.
+101;Aus den Maximen;Sage nicht, dass du geben willst, sondern gib!;Die Freigebigkeit erwirbt einem jeden Gunst, vorzüglich, wenn sie von Demut begleitet wird.
+102;Aus den Maximen;Wenn ein paar Menschen recht miteinander zufrieden sind, kann man meistens versichert sein, dass sie sich irren.;Man wird nie betrogen, man betrügt sich selbst.
+103;Aus den Maximen;Toren und gescheite Leute sind gleich unschädlich. Nur die Halbnarren und Halbweisen, das sind die Gefährlichsten.;Man sagt: Eitles Eigenlob stinket. Das mag sein, was aber fremder und ungerechter Tadel für einen Geruch habe, dafür hat das Publikum keine Nase.
+104;Aus den Maximen;Das Fürchterlichste ist, wenn platte unfähige Menschen zu Phantasten sich gesellen.;Gewissen Geistern muss man ihre Idiotismen lassen. Eigentümlichkeit ruft Eigentümlichkeit hervor.
+105;Aus den Maximen;Der echte Schüler lernt aus dem Bekannten das Unbekannte entwickeln und nähert sich dem Meister.;Wer keine Liebe fühlt, muss schmeicheln lernen, sonst kommt er nicht aus.
+106;Aus den Maximen;Das höchste Glück ist das, welches unsere Mängel verbessert und unsere Fehler ausgleicht.;Wenn die Menschen recht schlecht werden, haben sie keinen Anteil mehr als die Schadenfreude.
+107;Aus den Maximen;Man kann niemand lieben, als dessen Gegenwart man sicher ist, wenn man sein bedarf.;Der liebt nicht, der die Fehler des Geliebten nicht für Tugenden hält.
+108;Aus den Maximen;Es ist mit den Jahren wie mit den Sibyllinischen Büchern: Je mehr man ihrer verbrennt, desto teurer werden sie.;Wenn die Jugend ein Fehler ist, so legt man ihn sehr bald ab.
+109;Aus den Maximen;Wenn man alt ist, muss man mehr tun, als da man jung war.;Das kleinste Haar wirft seinen Schatten.
+110;West-östl. Divan;Die Sonne kommt! Ein Prachterscheinen!"|"Der Sichelmond umklammert sie.;Wer konnte solch ein Paar vereinen?"|"Dies Rätsel wie erklärt sich’s? Wie?
+111;West-östl. Divan;Denn die Menschen sie sind gut,"|"Würden besser bleiben,;Sollte nicht wie’s einer tut"|"Auch der Andre treiben.
+112;West-östl. Divan;Behandelt die Frauen mit Nachsicht!"|"Aus krummer Rippe ward sie erschaffen,;Gott konnte sie nicht ganz grade machen."|"Willst du sie biegen, sie bricht.
+113;West-östl. Divan;Auf dem Weg da ists ein Wort,"|"Niemand wird’s verdammen:;Wollen wir an Einen Ort,"|"Nun! wir gehn zusammen.
+114;West-östl. Divan;Am schwersten zu bergen ist ein Gedicht,"|"Man stellt es untern Scheffel nicht.;Hat es der Dichter frisch gesungen,"|"So ist er ganz davon durchdrungen.
+115;West-östl. Divan;Ach! wie schmeichelt’s meinem Triebe,"|"Wenn man meinen Dichter preist:;Denn das Leben ist die Liebe,"|"Und des Lebens Leben Geist.
+116;West-östl. Divan;Im Atemholen sind zweierlei Gnaden:"|"Die Luft einziehn, sich ihrer entladen.;Jenes bedrängt, dieses erfrischt"|"So wunderbar ist das Leben gemischt.
+117;West-östl. Divan;Im Genusse zu durchschreiten"|"Wo das Schöne, stets das Neue,;Immer wächst nach allen Seiten,"|"Dass die Unzahl sich erfreue.
+118;West-östl. Divan;Jedes Leben sei zu führen,"|"Wenn man sich nicht selbst vermisst,;Alles könne man verlieren,"|"Wenn man bliebe, was man ist.
+119;West-östl. Divan;Kaum dass ich dich wieder habe"|"Dich mit Kuss und Liedern labe,;Bist du still in dich gekehret"|"Was beengt? Und drückt Und störet?
+120;West-östl. Divan;Lass dich nur in keiner Zeit"|"Zum Widerspruch verleiten,;Weise fallen in Unwissenheit"|"Wenn sie mit Unwissenden streiten.
+121;West-östl. Divan;Lasst mich nur auf meinem Sattel gelten!"|"Bleibt in euren Hütten, euren Zelten!;Und ich reite froh in alle Ferne,"|"Über meiner Mütze nur die Sterne.
+122;West-östl. Divan;Lieb’ um Liebe Stund’ um Stunde"|"Wort um Wort und Blick um Blick,;Kuss um Kuss, vom treusten Munde,"|"Hauch um Hauch und Glück um Glück.

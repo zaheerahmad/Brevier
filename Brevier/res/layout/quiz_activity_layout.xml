@@ -42,7 +42,7 @@
         android:layout_below="@+id/quizActivity_questionTextInWhite"
         android:layout_alignParentLeft="true"
         android:id="@+id/quizActivity_questionTextInYellow"
-        android:text="Was wurde Goethe wahlen?"
+        android:text="Was würde Goethe wählen?"
         android:textColor="#ffcc00"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -123,7 +123,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="17dp"
         android:textSize="20sp"
-        android:text="Kannst du dich einfuhlen?"
+        android:text="Kannst du dich einfühlen?"
         android:layout_centerHorizontal="true"
         android:textColor="#ffffff"/>
     <Button 

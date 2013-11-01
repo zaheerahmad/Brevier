@@ -174,7 +174,7 @@ public class LearnQuoteActivity2 extends SherlockFragmentActivity
     public boolean onCreateOptionsMenu(Menu menu) 
     {
     	 // First Menu Button
-    	menu.add("Menu")
+    	menu.add("MENÜ")
         .setOnMenuItemClickListener(this.MenuButtonHandler)
 /*//                .setIcon(R.drawable.white_home) // Set the menu icon
 */                .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);

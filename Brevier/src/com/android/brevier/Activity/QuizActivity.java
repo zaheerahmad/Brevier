@@ -80,12 +80,12 @@ public class QuizActivity extends SherlockFragmentActivity
 				int milliseconds = (int) (updatedTime % 1000);
 				if(mins == 60){
 					++countHours;
-					timeText.setText("Time "
+					timeText.setText(""
 							+ String.format("%02d", countHours) + ":"
 							+ String.format("%02d", mins) + ":"
 							+ String.format("%02d", secs));
 				}
-				timeText.setText("Time " + String.format("%02d", mins) + ":"
+				timeText.setText("" + String.format("%02d", mins) + ":"
 						+ String.format("%02d", secs));
 				customHandler.postDelayed(this, 0);
 				
@@ -101,7 +101,7 @@ public class QuizActivity extends SherlockFragmentActivity
 			{
 				// TODO Auto-generated method stub	
 				String time = timeText.getText().toString();
-				time.replace("Time", "");
+				//time.replace("Time", "");
 				String []timeArr = time.split(":");
 				String hours = "0";
 				String minutes = "00";
@@ -317,7 +317,7 @@ public class QuizActivity extends SherlockFragmentActivity
     public boolean onCreateOptionsMenu(Menu menu) 
     {
     	 // First Menu Button
-    	menu.add("Menu")
+    	menu.add("MENÜ")
         .setOnMenuItemClickListener(this.MenuButtonHandler)
 /*//                .setIcon(R.drawable.white_home) // Set the menu icon
 */                .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);

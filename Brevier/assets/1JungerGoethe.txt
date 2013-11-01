@@ -92,3 +92,97 @@
 92;Sprüche;Auf, in der holden Stunde"|"Stoßt an, und küsset treu,;Bei jedem neuen Bunde"|"Die alten wieder neu!
 93;Sprüche;Auf Weiber stellt ich nun mein Sach."|"Juchhe!"|"Daher mir kam viel Ungemach."|"O weh!;Die falsche sucht' sich ein ander Teil,"|"Die treue macht' mir Langeweil:"|"Die beste war nicht feil.
 94;Gedichte;Ach! der mich liebt und kennt"|"Ist in der Weite."|"Es schwindelt mir es brennt"|"Mein Eingeweide.;Nur wer die Sehnsucht kennt,"|"Weiß, was ich leide!
+1;Gedichte;Du liebes Kind, komm, geh mit mir!"|"Gar schöne Spiele spiel' ich mit dir,;manch bunte Blumen sind an dem Strand,"|"meine Mutter hat manch gülden Gewand.
+2;Gedichte;Ach! der mich liebt und kennt,"|"Ist in der Weite."|"Es schwindelt mir, es brennt"|"Mein Eingeweide.;Nur wer die Sehnsucht kennt,"|"Weiß, was ich leide!.
+3;Gedichte;Dem Vater grauset's, er reitet geschwind,"|"er hält in den Armen das ächzende Kind,"|"erreicht den Hof mit Mühe und Not,;in seinen Armen das Kind war tot.
+4;Gedichte;Denn mit Göttern"|"Soll sich nicht messen"|"Irgend ein Mensch.;Ihr glücklichen Augen,"|"Was je ihr gesehn,"|"Es sei, wie es wolle,"|"Es war doch so schön!
+5;Gedichte;Fließe, fließe, lieber Fluss,"|"Nimmer werd ich froh,"|"So verrauschte Scherz und Kuss,"|"Und die Treue so.;Füllest wieder Busch und Tal"|"Still mit Nebelglanz"|"Lösest endlich auch einmal"|"Meine Seele ganz.
+6;Gedichte;Hat der alte Hexenmeister"|"Sich doch einmal wegbegeben!"|"Und nun sollen seine Geister,;Auch nach meinem Willen leben.
+7;Gedichte;Ich blick in die Ferne,"|"Ich seh in die Näh'"|"Den Mond und die Sterne,"|"Den Wald und das Reh.;So seh ich in allen"|"Die ewige Zier,"|"Und wie mir's gefallen,"|"Gefall ich auch mir.
+8;Gedichte;Ich denke dein, wenn mir der Sonne Schimmer"|"Vom Meere strahlt,;Ich denke dein, wenn sich des Mondes Flimmer"|"In Quellen malt.
+9;Gedichte;Ich liebe dich, mich reizt deine schöne Gestalt,"|"und bist du nicht willig, so brauch ich Gewalt.;Jeden Nachklang fühlt mein Herz"|"Froh und trüber Zeit,"|"Wandle zwischen Freud' und Schmerz"|"In der Einsamkeit.
+10;Gedichte;Nur wer die Sehnsucht kennt,"|"Weiß, was ich leide!"|"Allein und abgetrennt"|"Von aller Freude.;Rausche, Fluss, das Tal entlang"|"Ohne Rast und Ruh,"|"Rausche, flüstre meinem Sang"|"Melodien zu.
+11;Gedichte;Selig wer sich vor der Welt"|"Ohne Hass verschließt,"|"Einen Freund am Busen hält"|"Und mit dem genießt.;Zum Sehen geboren,"|"Zum Schauen bestellt,"|"Dem Turme geschworen,"|"Gefällt mir die Welt.
+12;Gedichte;Was unterscheidet"|"Götter von Menschen?"|"Dass viele Wellen"|"Vor jenen wandeln,"|"Ein ewiger Strom:;Uns hebt die Welle,"|"Verschlingt die Welle,"|"Und wir versinken.
+13;Gedichte;Wer reitet so spät durch Nacht und Wind?"|"Es ist der Vater mit seinem Kind.;Mein Vater, mein Vater, und hörest du nicht,"|"was Erlenkönig mir leise verspricht?
+14;Gedichte;Über allen Gipfeln"|"Ist Ruh,"|"In allen Wipfeln"|"Spürest du"|"Kaum einen Hauch,;Die Vögelein schweigen im Walde."|"Warte nur, balde"|"Ruhest du auch.
+15;Sprüche;Auf Weiber stellt ich nun mein Sach."|"Juchhe!"|"Daher mir kam viel Ungemach."|"O weh!;Die falsche sucht' sich ein ander Teil,"|"Die treue macht' mir Langeweil:"|"Die beste war nicht feil.
+16;Sprüche;Auf, in der holden Stunde"|"Stoßt an, und küsset treu,;Bei jedem neuen Bunde"|"Die alten wieder neu!
+17;Sprüche;Die Heil'gen Drei König' mit ihrem Stern,"|"Sie essen, sie trinken, und bezahlen nicht gern,;Sie essen gern, sie trinken gern,"|"Sie essen, trinken, und bezahlen nicht gern.
+18;Sprüche;Du hast uns oft im Traum gesehen"|"Zusammen zum Altare gehen,"|"Und dich als Frau und mich als Mann.;Oft nahm ich wachend deinem Munde,"|"In einer unbewachten Stunde,"|"Soviel man Küsse nehmen kann.
+19;Sprüche;Durch Feld und Wald zu schweifen,"|"Mein Liedchen wegzupfeifen,;So geht's von Ort zu Ort!"|"Und nach dem Takte reget"|"Und nach dem Maß beweget"|"Sich alles an mir fort.
+20;Sprüche;Erkennst du mich, die ich in manche Wunde"|"Des Lebens dir den reinsten Balsam goss,;Du kennst mich wohl, an die zu ew'gem Bunde"|"Dein strebend Herz sich fest und fester schloss.
+21;Sprüche;Geh den Weibern zart entgegen,"|"Du gewinnst sie, auf mein Wort,;Und wer rasch ist und verwegen,"|"Kommt vielleicht noch besser fort.
+22;Sprüche;Geh! gehorche meinen Winken,"|"Nutze deine jungen Tage,"|"Lerne zeitig klüger sein:"|"Auf des Glückes großer Waage"|"Steht die Zunge selten ein,;Du musst steigen oder sinken,"|"Du musst herrschen und gewinnen"|"Oder dienen und verlieren,"|"Leiden oder triumphieren,"|"Ambos oder Hammer sein.
+23;Sprüche;Hab oft einen dampfen, düstern Sinn,"|"Ein gar so schweres Blut!"|"Wenn ich bei meiner Christel bin,"|"Ist alles wieder gut.;Ist eine, die so lieben Mund,"|"Liebrunde Wänglein hat"|" Ach, und es ist noch etwas rund,"|"Da sieht kein Aug sich satt!
+24;Sprüche;Hier sind wir versammelt zu löblichem Tun,"|"Drum, Brüderchen! Ergo bibamus.;Die Gläser, sie klingen, Gespräche, sie ruhn,"|"Beherziget Ergo bibamus.
+25;Sprüche;Ich ging im Walde"|"So für mich hin,"|"Und nichts zu suchen,"|"Das war mein Sinn."|" Im Schatten sah ich"|"Ein Blümchen stehn,"|"Wie Sterne leuchtend,"|"Wie Äuglein schön.;Ich wollt es brechen,"|"Da sagt' es fein:"|""Soll ich zum Welken"|"Gebrochen sein".
+26;Sprüche;Ich hab mein Sach auf Nichts gestellt."|"Juchhe!"|"Drum ist's so wohl mir in der Welt."|"Juchhe!;Und wer will mein Kamerade sein,"|"Der stoße mit an, der stimme mit ein"|"Bei dieser Neige Wein.
+27;Sprüche;Ich habe geliebet, nun lieb ich erst recht!"|"Erst war ich der Diener, nun bin ich der Knecht."|"Erst war ich der Diener von allen,;Nun fesselt mich diese scharmante Person,"|"Sie tut mir auch alles zur Liebe, zum Lohn,"|"Sie kann nur allein mir gefallen.
+28;Sprüche;Ich hatte mein freundliches Liebchen gesehn,"|"Da dacht ich mir: Ergo bibamus."|"Und nahte mich traulich,;da ließ sie mich stehn."|"Ich half mir und dachte: Bibamus.
+29;Sprüche;Ich stellt mein Sach auf Geld und Gut."|"Juchhe!"|"Darüber verlor ich Freud und Mut."|"O weh!;Die Münze rollte hier und dort,"|"Und hascht ich sie an einem Ort,"|"Am andern war sie fort.
+30;Sprüche;Ich wollt, ich wär ein Fisch,"|"So hurtig und frisch,;Und kämst du zu anglen,"|"Ich würde nicht manglen."|"Ich wollt, ich wär ein Fisch,"|"So hurtig und frisch.
+31;Sprüche;Ich wollt, ich wär ein Pferd,"|"Da wär ich dir wert."|"O wär ich ein Wagen,"|"Bequem dich zu tragen.;Ich wollt, ich wär ein Pferd,"|"Da wär ich dir wert.
+32;Sprüche;Sah ein Knab ein Röslein stehn,"|"Röslein auf der Heiden,"|"War so jung und morgenschön,"|"Lief er schnell, es nah zu sehn,"|"Sah's mit vielen Freuden.;Knabe sprach: "Ich breche dich,"|"Röslein auf der Heiden!""|"Röslein sprach: "Ich steche dich,"|"Daß du ewig denkst an mich,"|"Und ich will's nicht leiden.".
+33;Sprüche;Mich ergreift, ich weiß nicht wie,"|"Himmlisches Behagen."|"Will mich's etwa gar hinauf"|"Zu den Sternen tragen,;Doch ich bleibe lieber hier,"|"Kann ich redlich sagen,"|"Beim Gesang und Glase Wein"|"Auf den Tisch zu schlagen.
+34;Sprüche;Nirgends kann ich sie vergessen"|"Und doch kann ich ruhig essen,"|"Heiter ist mein Geist und frei,;Und unmerkliche Betörung"|"Macht die Liebe zur Verehrung,"|"Die Begier zur Schwärmerei.
+35;Sprüche;Nun hab ich mein Sach auf Nichts gestellt."|"Juchhe!"|"Und mein gehört die ganze Welt."|"Juchhe!"|"Zu Ende geht nun Sang und Schmaus.;Nur trinkt mir alle Neigen aus"|"Die letzte muss heraus!
+36;Sprüche;O wie freut es mich, mein Liebchen,"|"Daß du so natürlich bist,;Unsre Mädchen, unsre Bübchen"|"Spielen künftig auf dem Mist!
+37;Sprüche;Röslein wehrte sich und stach,"|"Half ihm doch kein Weh und Ach,"|"Musst es eben leiden.;Röslein, Röslein, Röslein rot,"|"Röslein auf der Heiden.
+38;Sprüche;So glühet fröhlich heute,"|"Seid recht von Herzen eins!"|"Auf, trinkt erneuter Freude"|"Dies Glas des echten Weins!;Das alte Fass ist ausgetrunken"|"Der Himmel steckt ein neues an.
+39;Sprüche;Uf 'm Bergli"|"Bin i gesässe,"|"Ha de Vögle"|"Zugeschaut,;Hänt gesunge,"|"Hänt gesprunge,"|"Hänt 's Nästli"|"Gebaut.
+40;Sprüche;Und da kummt nu"|"Der Hansel,"|"Und da zeig i"|"Em froh,"|"Wie sie's mache,;Und mer lache"|"Und mache's"|"Au so.
+41;Sprüche;Und in unsern Liedern keimet"|"Silb aus Silbe, Wort aus Wort."|"Ob sich gleich auf Deutsch nichts reimet,"|"Reimt der Deutsche dennoch fort.;Ob es kräftig oder zierlich,"|"Geht uns so genau nicht an."|"Wir sind bieder und natürlich,"|"Und das ist genug getan.
+42;Sprüche;Und wenn sie liebend nach mir blickt"|"Und alles rund vergisst,"|"Und dann an meine Brust gedrückt"|"Und weidlich eins geküsst,;Das läuft mir durch das Rückenmark"|"Bis in die große Zeh!
+43;Sprüche;Viele Gäste wünsch ich heut"|"Mir zu meinem Tische!"|"Speisen sind genug bereit,"|"Vögel, Wild und Fische.;Eingeladen sind sie ja,"|"Haben's angenommen."|"Hänschen, geh und sieh dich um!"|"Sieh mir, ob sie kommen!
+44;Sprüche;Vielfach ist der Menschen Streben,"|"Ihre Unruh, ihr Verdruss"|"Auch ist manches Gut gegeben,"|"Mancher liebliche Genuss,;Doch das größte Glück im Leben"|"Und der reichlichste Gewinn"|"Ist ein guter, leichter Sinn.
+45;Sprüche;Was ein weiblich Herz erfreue"|"In der klein und großen Welt"|"Ganz gewiss ist es das Neue,"|"Dessen Blüte stets gefällt,;Doch viel werter ist die Treue,"|"Die auch in der Früchte Zeit"|"Noch mit Blüten uns erfreut.
+46;Sprüche;Was gehst du, schöne Nachbarin,"|"Im Garten so allein?;Und wenn du Haus und Felder pflegst,"|"Will ich dein Diener sein.
+47;Sprüche;Was ich irrte, was ich strebte,"|"Was ich litt und was ich lebte,"|"Sind hier Blumen nur im Strauß,;Und das Alter wie die Jugend,"|"Und der Fehler wie die Tugend"|"Nimmt sich gut in Liedern aus.
+48;Gedichte;Wer reitet so spät durch Nacht und Wind?"|"Es ist der Vater mit seinem Kind.;Mein Vater, mein Vater, und hörest du nicht,"|"was Erlenkönig mir leise verspricht?
+49;Gedichte;Was unterscheidet"|"Götter von Menschen?"|"Dass viele Wellen"|"Vor jenen wandeln,"|"Ein ewiger Strom:;Uns hebt die Welle,"|"Verschlingt die Welle,"|"Und wir versinken.
+50;Sprüche;Was ich irrte, was ich strebte,"|"Was ich litt und was ich lebte,"|"Sind hier Blumen nur im Strauß,;Und das Alter wie die Jugend,"|"Und der Fehler wie die Tugend"|"Nimmt sich gut in Liedern aus.
+51;Sprüche;Was gehst du, schöne Nachbarin,"|"Im Garten so allein?;Und wenn du Haus und Felder pflegst,"|"Will ich dein Diener sein.
+52;Sprüche;Was ein weiblich Herz erfreue"|"In der klein und großen Welt"|"Ganz gewiss ist es das Neue,"|"Dessen Blüte stets gefällt,;Doch viel werter ist die Treue,"|"Die auch in der Früchte Zeit"|"Noch mit Blüten uns erfreut.
+53;Sprüche;Vielfach ist der Menschen Streben,"|"Ihre Unruh, ihr Verdruss"|"Auch ist manches Gut gegeben,"|"Mancher liebliche Genuss,;Doch das größte Glück im Leben"|"Und der reichlichste Gewinn"|"Ist ein guter, leichter Sinn.
+54;Sprüche;Viele Gäste wünsch ich heut"|"Mir zu meinem Tische!"|"Speisen sind genug bereit,"|"Vögel, Wild und Fische.;Eingeladen sind sie ja,"|"Haben's angenommen."|"Hänschen, geh und sieh dich um!"|"Sieh mir, ob sie kommen!
+55;Sprüche;Und wenn sie liebend nach mir blickt"|"Und alles rund vergisst,"|"Und dann an meine Brust gedrückt"|"Und weidlich eins geküsst,;Das läuft mir durch das Rückenmark"|"Bis in die große Zeh!
+56;Sprüche;Und in unsern Liedern keimet"|"Silb aus Silbe, Wort aus Wort."|"Ob sich gleich auf Deutsch nichts reimet,"|"Reimt der Deutsche dennoch fort.;Ob es kräftig oder zierlich,"|"Geht uns so genau nicht an."|"Wir sind bieder und natürlich,"|"Und das ist genug getan.
+57;Sprüche;Und da kummt nu"|"Der Hansel,"|"Und da zeig i"|"Em froh,"|"Wie sie's mache,;Und mer lache"|"Und mache's"|"Au so.
+58;Sprüche;Uf 'm Bergli"|"Bin i gesässe,"|"Ha de Vögle"|"Zugeschaut,;Hänt gesunge,"|"Hänt gesprunge,"|"Hänt 's Nästli"|"Gebaut.
+59;Gedichte;Über allen Gipfeln"|"Ist Ruh,"|"In allen Wipfeln"|"Spürest du"|"Kaum einen Hauch,;Die Vögelein schweigen im Walde."|"Warte nur, balde"|"Ruhest du auch.
+60;Sprüche;So glühet fröhlich heute,"|"Seid recht von Herzen eins!"|"Auf, trinkt erneuter Freude"|"Dies Glas des echten Weins!;Das alte Fass ist ausgetrunken"|"Der Himmel steckt ein neues an.
+61;Gedichte;Selig wer sich vor der Welt"|"Ohne Hass verschließt,"|"Einen Freund am Busen hält"|"Und mit dem genießt.;Zum Sehen geboren,"|"Zum Schauen bestellt,"|"Dem Turme geschworen,"|"Gefällt mir die Welt.
+62;Sprüche;Sah ein Knab ein Röslein stehn,"|"Röslein auf der Heiden,"|"War so jung und morgenschön,"|"Lief er schnell, es nah zu sehn,"|"Sah's mit vielen Freuden.;Knabe sprach: "Ich breche dich,"|"Röslein auf der Heiden!""|"Röslein sprach: "Ich steche dich,"|"Daß du ewig denkst an mich,"|"Und ich will's nicht leiden.".
+63;Sprüche;Röslein wehrte sich und stach,"|"Half ihm doch kein Weh und Ach,"|"Musst es eben leiden.;Röslein, Röslein, Röslein rot,"|"Röslein auf der Heiden.
+64;Sprüche;O wie freut es mich, mein Liebchen,"|"Dass du so natürlich bist,;Unsre Mädchen, unsre Bübchen"|"Spielen künftig auf dem Mist!
+65;Gedichte;Nur wer die Sehnsucht kennt,"|"Weiß, was ich leide!"|"Allein und abgetrennt"|"Von aller Freude.;Rausche, Fluss, das Tal entlang"|"Ohne Rast und Ruh,"|"Rausche, flüstre meinem Sang"|"Melodien zu.
+66;Sprüche;Nun hab ich mein Sach auf Nichts gestellt."|"Juchhe!"|"Und mein gehört die ganze Welt."|"Juchhe!"|"Zu Ende geht nun Sang und Schmaus.;Nur trinkt mir alle Neigen aus"|"Die letzte muss heraus!
+67;Sprüche;Nirgends kann ich sie vergessen"|"Und doch kann ich ruhig essen,"|"Heiter ist mein Geist und frei,;Und unmerkliche Betörung"|"Macht die Liebe zur Verehrung,"|"Die Begier zur Schwärmerei.
+68;Sprüche;Mich ergreift, ich weiß nicht wie,"|"Himmlisches Behagen."|"Will mich's etwa gar hinauf"|"Zu den Sternen tragen,;Doch ich bleibe lieber hier,"|"Kann ich redlich sagen,"|"Beim Gesang und Glase Wein"|"Auf den Tisch zu schlagen.
+69;Sprüche;Ich wollt, ich wär ein Pferd,"|"Da wär ich dir wert."|"O wär ich ein Wagen,"|"Bequem dich zu tragen.;Ich wollt, ich wär ein Pferd,"|"Da wär ich dir wert.
+70;Sprüche;Ich wollt, ich wär ein Fisch,"|"So hurtig und frisch,;Und kämst du zu angeln,"|"Ich würde nicht mangeln."|"Ich wollt, ich wär ein Fisch,"|"So hurtig und frisch.
+71;Sprüche;Ich stellt mein Sach auf Geld und Gut."|"Juchhe!"|"Darüber verlor ich Freud und Mut."|"O weh!;Die Münze rollte hier und dort,"|"Und hascht ich sie an einem Ort,"|"Am andern war sie fort.
+72;Gedichte;Ich liebe dich, mich reizt deine schöne Gestalt,"|"und bist du nicht willig, so brauch ich Gewalt.;Jeden Nachklang fühlt mein Herz"|"Froh und trüber Zeit,"|"Wandle zwischen Freud' und Schmerz"|"In der Einsamkeit.
+73;Sprüche;Ich hatte mein freundliches Liebchen gesehn,"|"Da dacht ich mir: Ergo bibamus."|"Und nahte mich traulich,;da ließ sie mich stehn."|"Ich half mir und dachte: Bibamus.
+74;Sprüche;Ich habe geliebet, nun lieb ich erst recht!"|"Erst war ich der Diener, nun bin ich der Knecht."|"Erst war ich der Diener von allen,;Nun fesselt mich diese scharmante Person,"|"Sie tut mir auch alles zur Liebe, zum Lohn,"|"Sie kann nur allein mir gefallen.
+75;Sprüche;Ich hab mein Sach auf Nichts gestellt."|"Juchhe!"|"Drum ist's so wohl mir in der Welt."|"Juchhe!;Und wer will mein Kamerade sein,"|"Der stoße mit an, der stimme mit ein"|"Bei dieser Neige Wein.
+76;Sprüche;Ich ging im Walde"|"So für mich hin,"|"Und nichts zu suchen,"|"Das war mein Sinn."|" Im Schatten sah ich"|"Ein Blümchen stehn,"|"Wie Sterne leuchtend,"|"Wie Äuglein schön.;Ich wollt es brechen,"|"Da sagt' es fein:"|""Soll ich zum Welken"|"Gebrochen sein".
+77;Gedichte;Ich denke dein, wenn mir der Sonne Schimmer"|"Vom Meere strahlt,;Ich denke dein, wenn sich des Mondes Flimmer"|"In Quellen malt.
+78;Gedichte;Ich blick in die Ferne,"|"Ich seh in die Näh'"|"Den Mond und die Sterne,"|"Den Wald und das Reh.;So seh ich in allen"|"Die ewige Zier,"|"Und wie mir's gefallen,"|"Gefall ich auch mir.
+79;Sprüche;Hier sind wir versammelt zu löblichem Tun,"|"Drum, Brüderchen! Ergo bibamus.;Die Gläser, sie klingen, Gespräche, sie ruhn,"|"Beherziget Ergo bibamus.
+80;Gedichte;Hat der alte Hexenmeister"|"Sich doch einmal wegbegeben!"|"Und nun sollen seine Geister,;Auch nach meinem Willen leben.
+81;Sprüche;Hab oft einen dampfen, düstern Sinn,"|"Ein gar so schweres Blut!"|"Wenn ich bei meiner Christel bin,"|"Ist alles wieder gut.;Ist eine, die so lieben Mund,"|"Liebrunde Wänglein hat"|" Ach, und es ist noch etwas rund,"|"Da sieht kein Aug sich satt!
+82;Sprüche;Geh! gehorche meinen Winken,"|"Nutze deine jungen Tage,"|"Lerne zeitig klüger sein:"|"Auf des Glückes großer Waage"|"Steht die Zunge selten ein,;Du musst steigen oder sinken,"|"Du musst herrschen und gewinnen"|"Oder dienen und verlieren,"|"Leiden oder triumphieren,"|"Ambos oder Hammer sein.
+83;Sprüche;Geh den Weibern zart entgegen,"|"Du gewinnst sie, auf mein Wort,;Und wer rasch ist und verwegen,"|"Kommt vielleicht noch besser fort.
+84;Gedichte;Fließe, fließe, lieber Fluss,"|"Nimmer werd ich froh,"|"So verrauschte Scherz und Kuss,"|"Und die Treue so.;Füllest wieder Busch und Tal"|"Still mit Nebelglanz"|"Lösest endlich auch einmal"|"Meine Seele ganz.
+85;Sprüche;Erkennst du mich, die ich in manche Wunde"|"Des Lebens dir den reinsten Balsam goss,;Du kennst mich wohl, an die zu ew'gem Bunde"|"Dein strebend Herz sich fest und fester schloss.
+86;Sprüche;Durch Feld und Wald zu schweifen,"|"Mein Liedchen wegzupfeifen,;So geht's von Ort zu Ort!"|"Und nach dem Takte reget"|"Und nach dem Maß beweget"|"Sich alles an mir fort.
+87;Gedichte;Du liebes Kind, komm, geh mit mir!"|"Gar schöne Spiele spiel' ich mit dir,;manch bunte Blumen sind an dem Strand,"|"meine Mutter hat manch gülden Gewand.
+88;Sprüche;Du hast uns oft im Traum gesehen"|"Zusammen zum Altare gehen,"|"Und dich als Frau und mich als Mann.;Oft nahm ich wachend deinem Munde,"|"In einer unbewachten Stunde,"|"Soviel man Küsse nehmen kann.
+89;Sprüche;Die Heil'gen Drei König' mit ihrem Stern,"|"Sie essen, sie trinken, und bezahlen nicht gern,;Sie essen gern, sie trinken gern,"|"Sie essen, trinken, und bezahlen nicht gern.
+90;Gedichte;Denn mit Göttern"|"Soll sich nicht messen"|"Irgend ein Mensch.;Ihr glücklichen Augen,"|"Was je ihr gesehn,"|"Es sei, wie es wolle,"|"Es war doch so schön!
+91;Gedichte;Dem Vater grauset's, er reitet geschwind,"|"er hält in den Armen das ächzende Kind,"|"erreicht den Hof mit Mühe und Not,;in seinen Armen das Kind war tot.
+92;Sprüche;Auf, in der holden Stunde"|"Stoßt an, und küsset treu,;Bei jedem neuen Bunde"|"Die alten wieder neu!
+93;Sprüche;Auf Weiber stellt ich nun mein Sach."|"Juchhe!"|"Daher mir kam viel Ungemach."|"O weh!;Die falsche sucht' sich ein ander Teil,"|"Die treue macht' mir Langeweil:"|"Die beste war nicht feil.
+94;Gedichte;Ach! der mich liebt und kennt"|"Ist in der Weite."|"Es schwindelt mir es brennt"|"Mein Eingeweide.;Nur wer die Sehnsucht kennt,"|"Weiß, was ich leide!
