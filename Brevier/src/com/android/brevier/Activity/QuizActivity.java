@@ -45,6 +45,7 @@ public class QuizActivity extends SherlockFragmentActivity
 	ImageView optionResultImage = null;
 	int questionNumber = 1;
 	boolean isFirstGame = true;
+	int randomIndex = 0;
 	
 	int countHours = 0;
 	
@@ -159,52 +160,87 @@ public class QuizActivity extends SherlockFragmentActivity
 		});		
 	  
 		loadFileText();
-		setNextQuizQuestion();		
+		setFirstQuizQuestion();		
 	}
 	
 	public void loadFileText() {	
 		fileText = TextParser.readFile(getAssets(),"4PraepAnschl.txt");		
 	}
 	
-	public void setNextQuizQuestion() {
-		if(fileText.size() > 0)
-		{
-			int randomIndex = 0;
-			if(fileText.size() == 1){
+	public void refreshFileTextArray(){
+		try{
+			loadFileText();			
+			setFirstQuizQuestion();	
+		}
+		catch(Exception ex){
+			
+		}
+	}
+	
+	public void setFirstQuizQuestion(){
+		if(fileText.size() > 0){
+			if(fileText.size() == 0){
 				randomIndex = 0;
 			}
 			else{
 				randomIndex = random.nextInt(fileText.size() - 1) - 0 + 0;
 			}
+			
+			quizData = TextParser.splitData(fileText.get(randomIndex));
+			questionNumberText.setText("Q." + Integer.toString(questionNumber++));
+			questionText.setText(quizData.name);
+			option1.setText(quizData.option1);
+			option2.setText(quizData.option2);
+			option3.setText(quizData.option3);
+			fileText.remove(randomIndex);
+			randomIndex = 0;
+		}		
+	}
+	
+	public void setNextQuizQuestion() {
+		if(fileText.size() > 0)
+		{			
+			if(fileText.size() == 1){
+				randomIndex = 0;
+				quizData = TextParser.splitData(fileText.get(randomIndex));
+				fileText.remove(randomIndex);
+				questionNumberText.setText("Q." + Integer.toString(questionNumber++));
+				questionText.setText(quizData.name);
+				option1.setText(quizData.option1);
+				option2.setText(quizData.option2);
+				option3.setText(quizData.option3);				
+				return;
+			}			
 			quizData = TextParser.splitData(fileText.get(randomIndex));
 			fileText.remove(randomIndex);
 			questionNumberText.setText("Q." + Integer.toString(questionNumber++));
 			questionText.setText(quizData.name);
 			option1.setText(quizData.option1);
 			option2.setText(quizData.option2);
-			option3.setText(quizData.option3);
+			option3.setText(quizData.option3);			
 		}
 		else
 		{
-			//All Questions completed by User...
-			AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
-			// set dialog message
-			alertDialogBuilder
-					.setMessage("XXX")
-					.setCancelable(false)
-					.setPositiveButton("OK",
-							new DialogInterface.OnClickListener() {
-								public void onClick(DialogInterface dialog,
-										int id) {
-									// if this button is clicked, close
-									// current activity
-									finish();
-								}
-							});
-			// create alert dialog
-			AlertDialog alertDialog = alertDialogBuilder.create();
-			// show it
-			alertDialog.show();
+			refreshFileTextArray();
+//			//All Questions completed by User...
+//			AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
+//			// set dialog message
+////			alertDialogBuilder
+////					.setMessage("XXX")
+////					.setCancelable(false)
+////					.setPositiveButton("OK",
+////							new DialogInterface.OnClickListener() {
+////								public void onClick(DialogInterface dialog,
+////										int id) {
+////									// if this button is clicked, close
+////									// current activity
+////									finish();
+////								}
+////							});
+////			// create alert dialog
+////			AlertDialog alertDialog = alertDialogBuilder.create();
+////			// show it
+////			alertDialog.show();
 		}
 	}
 
@@ -212,10 +248,7 @@ public class QuizActivity extends SherlockFragmentActivity
 		progressDialog.setMessage("Uploading Next Question, Please Wait...");
 		progressDialog.show();
 		progressDialog.setCancelable(false);
-	}*/
-	public void checkUserAnswer(String selectedOption,String correctAnswer){
-		
-	}
+	}*/	
 	
 	public void ToggleRadioButton(View view) 
 	{
@@ -246,7 +279,7 @@ public class QuizActivity extends SherlockFragmentActivity
 				}, 1000);
 				
 					
-			}
+			}			
 			break;
 			case R.id.quizActivity_option2:
 				checkRadioButton(option2);
@@ -269,7 +302,7 @@ public class QuizActivity extends SherlockFragmentActivity
 					}
 				}, 1000);
 				
-			}
+			}			
 			break;
 			case R.id.quizActivity_option3:
 				checkRadioButton(option3);
@@ -277,7 +310,7 @@ public class QuizActivity extends SherlockFragmentActivity
 				uncheckRadioButton(option1);
 			radioButton = (RadioButton) findViewById(view.getId());
 			selectedOption = radioButton.getText().toString();
-			if (selectedOption.equals(quizData.correctOption)) {
+			if (selectedOption.equals(quizData.correctOption) && fileText.size() > 1) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
 				//showDialogBox();
 				disableOption();
@@ -292,9 +325,9 @@ public class QuizActivity extends SherlockFragmentActivity
 					}
 				}, 1000);
 				
-			}
+			}		
 			break;
-		}
+		}		
 
 		if(isNextQuestion){
 			clearOption();
