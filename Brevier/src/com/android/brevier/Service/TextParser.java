@@ -49,9 +49,9 @@ public class TextParser {
 				returnData.quizId = Integer.parseInt(spliString[0]);
 				returnData.correctOption = spliString[1];
 				returnData.name = spliString[2];
-				returnData.option1 = option[0];
-				returnData.option2 = option[1];
-				returnData.option3 = option[2];
+				returnData.option1 = option[0].trim();
+				returnData.option2 = option[1].trim();
+				returnData.option3 = option[2].trim();
 			}
 		} catch (Exception ex) {
 

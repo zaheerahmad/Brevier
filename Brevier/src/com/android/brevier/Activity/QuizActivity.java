@@ -45,6 +45,8 @@ public class QuizActivity extends SherlockFragmentActivity
 	int questionNumber = 1;
 	boolean isFirstGame = true;
 	int randomIndex = 0;
+	int intialIndex = 0;
+	int checkIndex = 0;
 	
 	int countHours = 0;
 	
@@ -52,6 +54,8 @@ public class QuizActivity extends SherlockFragmentActivity
 	long timeInMilliseconds = 0L;
 	long timeSwapBuff = 0L;
 	long updatedTime = 0L;
+	
+	boolean isIncrementRandomIndex = false;
 
 	private Handler customHandler = new Handler();
 	@Override
@@ -167,7 +171,7 @@ public class QuizActivity extends SherlockFragmentActivity
 	}
 	
 	public void refreshFileTextArray(){
-		try{
+		try{			
 			loadFileText();			
 			setFirstQuizQuestion();	
 		}
@@ -178,21 +182,22 @@ public class QuizActivity extends SherlockFragmentActivity
 	
 	public void setFirstQuizQuestion(){
 		if(fileText.size() > 0){
+			checkIndex = fileText.size() - 1;
 			if(fileText.size() == 0){
 				randomIndex = 0;
 			}
 			else{
 				randomIndex = random.nextInt(fileText.size() - 1) - 0 + 0;
 			}
-			
+			intialIndex = randomIndex;
 			quizData = TextParser.splitData(fileText.get(randomIndex));
 			questionNumberText.setText("Q." + Integer.toString(questionNumber++));
 			questionText.setText(quizData.name);
 			option1.setText(quizData.option1);
 			option2.setText(quizData.option2);
 			option3.setText(quizData.option3);
-			fileText.remove(randomIndex);
-			randomIndex = 0;
+			fileText.remove(randomIndex);	
+			isIncrementRandomIndex = false;
 		}		
 	}
 	
@@ -209,14 +214,25 @@ public class QuizActivity extends SherlockFragmentActivity
 				option2.setText(quizData.option2);
 				option3.setText(quizData.option3);				
 				return;
-			}			
-			quizData = TextParser.splitData(fileText.get(randomIndex));
+			}
+			else if(checkIndex == intialIndex){
+				randomIndex = 0;		
+				isIncrementRandomIndex = true;
+			}
+			else{
+				intialIndex++;
+			}
+			quizData = TextParser.splitData(fileText.get(randomIndex));			
 			fileText.remove(randomIndex);
 			questionNumberText.setText("Q." + Integer.toString(questionNumber++));
 			questionText.setText(quizData.name);
 			option1.setText(quizData.option1);
 			option2.setText(quizData.option2);
-			option3.setText(quizData.option3);			
+			option3.setText(quizData.option3);		
+			
+			if(isIncrementRandomIndex){
+				randomIndex += 1;
+			}			
 		}
 		else
 		{
@@ -309,7 +325,7 @@ public class QuizActivity extends SherlockFragmentActivity
 				uncheckRadioButton(option1);
 			radioButton = (RadioButton) findViewById(view.getId());
 			selectedOption = radioButton.getText().toString();
-			if (selectedOption.equals(quizData.correctOption) && fileText.size() > 1) {
+			if (selectedOption.equals(quizData.correctOption)) {
 				optionResultImage.setImageResource(R.drawable.option_checkmark);
 				//showDialogBox();
 				disableOption();
