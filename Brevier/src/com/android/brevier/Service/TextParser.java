@@ -68,8 +68,8 @@ public class TextParser {
 				returnObj = new LearnData();
 				returnObj.id = Integer.parseInt(splitString[0]);
 				returnObj.subtitle = splitString[1];
-				returnObj.firstDisplayText = splitString[2].replace("\"|\"", "\n");
-				returnObj.secondDisplayText = splitString[3].replace("\"|\"", "\n");				
+				returnObj.firstDisplayText = splitString[2].replace("\"|\"", "\n").replace("“|“", "\n");
+				returnObj.secondDisplayText = splitString[3].replace("\"|\"", "\n").replace("“|“", "\n");				
 			}
 		} catch (Exception ex) {
 
