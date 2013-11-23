@@ -166,27 +166,35 @@ public class QuizActivity extends SherlockFragmentActivity
 		setFirstQuizQuestion();		
 	}
 	
-	public void loadFileText() {	
+	public void loadFileText() 
+	{	
 		fileText = TextParser.readFile(getAssets(),"4PraepAnschl.txt");		
 	}
 	
-	public void refreshFileTextArray(){
-		try{			
+	public void refreshFileTextArray()
+	{
+		try
+		{			
 			loadFileText();			
 			setFirstQuizQuestion();	
 		}
-		catch(Exception ex){
+		catch(Exception ex)
+		{
 			
 		}
 	}
 	
-	public void setFirstQuizQuestion(){
-		if(fileText.size() > 0){
+	public void setFirstQuizQuestion()
+	{
+		if(fileText.size() > 0)
+		{
 			checkIndex = fileText.size() - 1;
-			if(fileText.size() == 0){
+			if(fileText.size() == 0)
+			{
 				randomIndex = 0;
 			}
-			else{
+			else
+			{
 				randomIndex = random.nextInt(fileText.size() - 1) - 0 + 0;
 			}
 			intialIndex = randomIndex;
@@ -201,10 +209,12 @@ public class QuizActivity extends SherlockFragmentActivity
 		}		
 	}
 	
-	public void setNextQuizQuestion() {
+	public void setNextQuizQuestion() 
+	{
 		if(fileText.size() > 0)
 		{			
-			if(fileText.size() == 1){
+			if(fileText.size() == 1)
+			{
 				randomIndex = 0;
 				quizData = TextParser.splitData(fileText.get(randomIndex));
 				fileText.remove(randomIndex);
@@ -212,14 +222,17 @@ public class QuizActivity extends SherlockFragmentActivity
 				questionText.setText(quizData.name);
 				option1.setText(quizData.option1);
 				option2.setText(quizData.option2);
-				option3.setText(quizData.option3);				
+				option3.setText(quizData.option3);	
 				return;
 			}
-			else if(checkIndex == intialIndex){
+			
+			else if(checkIndex == intialIndex)
+			{
 				randomIndex = 0;		
 				isIncrementRandomIndex = true;
 			}
-			else{
+			else
+			{
 				intialIndex++;
 			}
 			quizData = TextParser.splitData(fileText.get(randomIndex));			
@@ -230,44 +243,19 @@ public class QuizActivity extends SherlockFragmentActivity
 			option2.setText(quizData.option2);
 			option3.setText(quizData.option3);		
 			
-			if(isIncrementRandomIndex){
+			if(isIncrementRandomIndex)
+			{
 				randomIndex += 1;
 			}			
 		}
 		else
 		{
 			refreshFileTextArray();
-//			//All Questions completed by User...
-//			AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
-//			// set dialog message
-////			alertDialogBuilder
-////					.setMessage("XXX")
-////					.setCancelable(false)
-////					.setPositiveButton("OK",
-////							new DialogInterface.OnClickListener() {
-////								public void onClick(DialogInterface dialog,
-////										int id) {
-////									// if this button is clicked, close
-////									// current activity
-////									finish();
-////								}
-////							});
-////			// create alert dialog
-////			AlertDialog alertDialog = alertDialogBuilder.create();
-////			// show it
-////			alertDialog.show();
 		}
 	}
-
-	/*public void showDialogBox(){
-		progressDialog.setMessage("Uploading Next Question, Please Wait...");
-		progressDialog.show();
-		progressDialog.setCancelable(false);
-	}*/	
 	
 	public void ToggleRadioButton(View view) 
-	{
-		
+	{	
 		boolean isNextQuestion = false;
 		RadioButton radioButton = null;		
 		String selectedOption = "";		
@@ -283,11 +271,11 @@ public class QuizActivity extends SherlockFragmentActivity
 				//showDialogBox();
 				disableOption();
 				final Handler handler = new Handler();
-				handler.postDelayed(new Runnable() {
-					
+				handler.postDelayed(new Runnable() 
+				{	
 					@Override
-					public void run() {
-						// TODO Auto-generated method stub
+					public void run() 
+					{
 						clearOption();
 						setNextQuizQuestion();
 					}
